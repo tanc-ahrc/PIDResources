@@ -21,7 +21,7 @@
 	"ptitle": "Read this first",
 	"stitle": "How to use this resource",
 	"comment": "Includes a baseline of requirements",
-	"image": "graphics/TANC%20-%20IIIF.png",
+	"image": "readme.png",
 	"checked": "",
 	"link": ""
 },{
@@ -29,9 +29,9 @@
 	"ptitle": "Augment with existing IDs",
 	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
 	"comment": "PIDs such as Wikidata IDs, ISNIs, Getty URIs, DOIs, Gazetteer URIs and IDs from other collections can be added to collection management systems. These can be included for related collection items, an identifier for a collection item itself where it is represented in another identifier scheme and authority files.",
-	"image": "graphics/TANC%20-%20PIDS.png",
+	"image": "graphics/augment.png",
 	"checked": "",
-	"link": ""
+	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
 },{
 	"groups": ["Full Card Format", "Simple Card Format", "Image Only Format", "List Format"],
 	"ptitle": "Assign IDs which could be persistent",
