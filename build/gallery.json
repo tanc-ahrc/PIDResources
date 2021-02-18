@@ -5,7 +5,7 @@
     "Readme":   
       {"logo":"graphics/readme.png",    
           "link": "https://www.bl.uk/",  
-          "level": "secondary"},
+          "level": "primary"},
       "Augment":
         {"logo":"graphics/augment.png",     
             "link": "https://francesmadden.github.io/PIDResources/Augment.html",
@@ -21,18 +21,18 @@
     "Humanly resolvable":    
      {"logo":"graphics/humanlyresolvable.png",
           "link": "https://www.sciencemuseumgroup.org.uk/",
-          "level": "secondary"},
+          "level": "primary"},
    "machine readable":    
     {"logo":"graphics/machinereadable.png",
         "link": "https://www.vam.ac.uk/",
-        "level": "secondary"},
+        "level": "primary"},
   "globally resolvable":
     {"logo":"graphics/globallyresolvable.png",
         "link": "https://www.nhm.ac.uk/",
-        "level": "secondary"},
+        "level": "primary"},
   "definitions":
     {"logo":"graphics/definitions.png",
         "link": "https://www.nhm.ac.uk/",
-        "level": "secondary"}
+        "level": "primary"}
 }
 }
