@@ -21,18 +21,18 @@
     "Humanly resolvable":    
      {"logo":"graphics/humanlyresolvable.png",
           "link": "https://www.sciencemuseumgroup.org.uk/",
-          "level": "primary"},
+          "level": "secondary"},
    "machine readable":    
     {"logo":"graphics/machinereadable.png",
         "link": "https://www.vam.ac.uk/",
-        "level": "primary"},
+        "level": "secondary"},
   "globally resolvable":
     {"logo":"graphics/globallyresolvable.png",
         "link": "https://www.nhm.ac.uk/",
-        "level": "primary"},
+        "level": "secondary"},
   "definitions":
     {"logo":"graphics/definitions.png",
         "link": "https://www.nhm.ac.uk/",
-        "level": "primary"}
+        "level": "secondary"}
 }
 }
