@@ -9,7 +9,6 @@
 	"file": "list-example.json",
 	"title": "<b>Developing Identifiers for Heritage Collections</b>",
 	"content": "<p>This resource describes the different facets of developing persistent identifiers (PIDs) in the context of Heritage Collections. This resource is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services.<\/p>\r\n[##]\r\n\r\n<p>This resource will be revised in 2021 and maintained until the conclusion of the Towards a National Collection programme in 2025. Comments and discussions are welcome, as are additional examples. Please raise an [issue via Github|https://github.com/FrancesMadden/PIDResources/issues] if you want to comment.<\/p>\r\n\r\n",	
-	"displaycode": false
 	},
 "Augment": {
 	"title": "Augment with existing identifiers",
@@ -28,6 +27,5 @@
 	"file": "simple-card.json",
 	"title": "<b>Developing Identifiers for Heritage Collections 2</b>",
 	"content": "<p>This resource describes the different facets of developing persistent identifiers (PIDs) in the context of Heritage Collections. This resource is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services.<\/p>\r\n[##]\r\n\r\n<p>This resource will be revised in 2021 and maintained until the conclusion of the Towards a National Collection programme in 2025. Comments and discussions are welcome, as are additional examples. Please raise an [issue via Github|https://github.com/FrancesMadden/PIDResources/issues] if you want to comment.<\/p>\r\n\r\n",	
-	"displaycode": false
 	}
 }
