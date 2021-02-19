@@ -45,8 +45,8 @@
 	"ptitle": "Commit to persisting existing IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "A PID can be presented as a link which resolves to a publicly accessible web page containing metadata about the item or concept. Minimum metadata is required. Metadata has an open license to enable reuse.",
-	"image": "",
-	"checked": "graphics/commitpersistence.png",
+	"image": "graphics/commitpersistence.png",
+	"checked": "",
 	"link": ""
 },{
   	"groups": ["Full Card Format", "Simple Card Format", "Image Only Format", "List Format"],
