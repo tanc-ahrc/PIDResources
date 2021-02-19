@@ -37,7 +37,7 @@
 	"ptitle": "Assign IDs which could be persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
 	"comment": "Identifiers have a potentially machine readable format which could be expressed in a globally unique way via a DOI prefix, URI namespace or other.",
-	"image": "graphics/potentiallypersistent",
+	"image": "graphics/potentially persistent.png",
 	"checked": "",
 	"link": ""
 },{
@@ -69,7 +69,7 @@
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
 	"comment": "The identifiers are created under the auspices of an external identifier scheme such as ARKs, DOIs etc. The identifiers are resolvable via this scheme, rather than an institution specific domain (web address). This introduces contractual requirements for persistence and maintenance of access to resources.",
-	"image": "graphics/globallyresolvable/png",
+	"image": "graphics/globallyresolvable.png",
 	"checked": "",
 	"link": ""  
 }]
