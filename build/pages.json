@@ -22,12 +22,12 @@
   	"title": "Developing Identifiers",
   	"content": "<p>This resource describes the different facets of developing persistent identifiers (PIDs) in the context of Heritage Collections. This resource is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services.<\/p><p>This resource will be revised in 2021 and maintained until the conclusion of the Towards a National Collection programme in 2025. Comments and discussions are welcome, as are additional examples.<\/p>",
   	"content right": ""
-	}
-"Developing Identifiers": {
+	},
+"Developing Identifiers 2": {
 	"class": "list",
 	"file": "simple-card.json",
 	"title": "<b>Developing Identifiers for Heritage Collections 2</b>",
 	"content": "<p>This resource describes the different facets of developing persistent identifiers (PIDs) in the context of Heritage Collections. This resource is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services.<\/p><p>This resource will be revised in 2021 and maintained until the conclusion of the Towards a National Collection programme in 2025. Comments and discussions are welcome, as are additional examples<\/p>\r\n\r\n",	
 	"displaycode": true
-	},
+	}
 }
