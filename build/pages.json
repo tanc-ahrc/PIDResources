@@ -8,8 +8,7 @@
 	"class": "list",
 	"file": "list-example.json",
 	"title": "<b>Developing Identifiers for Heritage Collections</b>",
-	"content": "<p>This resource describes the different facets of developing persistent identifiers (PIDs) in the context of Heritage Collections. This resource is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services.<\/p>\r\n\r\n<h3>The Example<\/h3><p>This example is displaying a list of eight entries, displayed four times, demonstrating all four available display formats. An optional table of contents providing links to each of the defined groups has also been included.<\/p>\r\n[##]\r\n\r\n",	"content right": "",
-	"displaycode": true
+	"content": "<p>This resource describes the different facets of developing persistent identifiers (PIDs) in the context of Heritage Collections. This resource is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services.<\/p><p>This resource will be revised in 2021 and maintained until the conclusion of the Towards a National Collection programme in 2025. Comments and discussions are welcome, as are additional examples<\/p>\r\n\r\n",	"displaycode": true
 	},
 "Augment": {
 	"title": "Augment with existing identifiers",
