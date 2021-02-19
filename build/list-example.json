@@ -1,7 +1,7 @@
 {
   "defaultcard": "full",
   "displaychecked": true,
-  "tableofcontents": true,
+  "tableofcontents": false,
   "groups": {
     "Full Card Format" : {
       "comment": "This the most complex formatting provided presenting all of the main details in an interactive card like presentation",
@@ -21,7 +21,7 @@
 	"ptitle": "Read this first",
 	"stitle": "How to use this resource",
 	"comment": "Includes a baseline of requirements",
-	"image": "readme.png",
+	"image": "graphics/readme.png",
 	"checked": "",
 	"link": ""
 },{
@@ -37,31 +37,31 @@
 	"ptitle": "Assign IDs which could be persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
 	"comment": "Identifiers have a potentially machine readable format which could be expressed in a globally unique way via a DOI prefix, URI namespace or other.",
-	"image": "",
+	"image": "graphics/potentiallypersistent",
 	"checked": "",
 	"link": ""
-},{
-  	"groups": ["Full Card Format", "Simple Card Format", "Image Only Format", "List Format"],
-  	"ptitle": "Humanly resolvable PIDs",
-  	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
-  	"comment": "A PID can be presented as a link which resolves to a publicly accessible web page containing metadata about the item or concept. Minimum metadata is required. Metadata has an open license to enable reuse.",
-  	"image": "",
- 	"checked": "",
-  	"link": ""
 },{
 	"groups": ["Full Card Format", "Simple Card Format", "Image Only Format", "List Format"],
 	"ptitle": "Commit to persisting existing IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "A PID can be presented as a link which resolves to a publicly accessible web page containing metadata about the item or concept. Minimum metadata is required. Metadata has an open license to enable reuse.",
 	"image": "",
-	"checked": "",
+	"checked": "graphics/commitpersistence.png",
 	"link": ""
+},{
+  	"groups": ["Full Card Format", "Simple Card Format", "Image Only Format", "List Format"],
+  	"ptitle": "Humanly resolvable PIDs",
+  	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
+  	"comment": "A PID can be presented as a link which resolves to a publicly accessible web page containing metadata about the item or concept. Minimum metadata is required. Metadata has an open license to enable reuse.",
+  	"image": "graphics/humanlyresolvable.png",
+ 	"checked": "",
+  	"link": ""
 },{
 	"groups": ["Full Card Format", "Simple Card Format", "Image Only Format", "List Format"],
 	"ptitle": "Machine readable PIDs",
 	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
 	"comment": "PIDs and metadata are made available in a machine readable format and via an API or SPARQL or OAI-PMH endpoint. Minimum metadata is required. Metadata has an open license to enable reuse.",
-	"image": "",
+	"image": "graphics/machinereadable.png",
 	"checked": "",
 	"link": ""
 },{
@@ -69,7 +69,7 @@
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
 	"comment": "The identifiers are created under the auspices of an external identifier scheme such as ARKs, DOIs etc. The identifiers are resolvable via this scheme, rather than an institution specific domain (web address). This introduces contractual requirements for persistence and maintenance of access to resources.",
-	"image": "",
+	"image": "graphics/globallyresolvable/png",
 	"checked": "",
 	"link": ""  
 }]
