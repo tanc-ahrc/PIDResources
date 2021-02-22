@@ -1,32 +1,19 @@
 {
-  "defaultcard": "full",
+  "defaultcard": "simple",
   "displaychecked": false,
   "tableofcontents": false,
   "groups": {
-    "Full Card Format" : {
-      "comment": "This the most complex formatting provided presenting all of the main details in an interactive card like presentation",
-      "card": "full"},
-    "Simple Card Format" : {
-      "comment": "This is a simplified version of the full card, the sizes of the image is generally limited, the second title is not shown and the cards are arrange in columns rather than rows.",
+    "Facets for Developing PIDs for Collections" : {
+      "comment": "",
       "card": "simple",
-      "maxcols": 4},
-    "Image Only Format" : {
-      "comment": "This is simplest card format, limited to a clickable image with the primary title shown as hover text.",
-      "card": "image"},
-    "List Format" : {
-      "comment": "The list format only display clickable titles and the comment for each entry, arranged as a simple bulet point list.",
-      "card": "list"}
+      "maxcols": 4}
+    "Help using this site" : {
+      "comment": "Additional resources to help when using this site.",
+      "card": "simple",
+      "maxcols": 4}
     	},
   "list": [{
-	"groups": ["Simple Card Format"],
-	"ptitle": "Read this first",
-	"stitle": "How to use this resource",
-	"comment": "",
-	"image": "graphics/noun_Book_1563122cropped.png",
-	"checked": "",
-	"link": ""
-},{
-	"groups": ["Simple Card Format"],
+	"groups": ["Facets for Developing PIDs for Collections"],
 	"ptitle": "Augment with existing IDs",
 	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
 	"comment": "",
@@ -34,15 +21,15 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
 },{
-	"groups": ["Simple Card Format"],
+	"groups": ["Facets for Developing PIDs for Collections"],
 	"ptitle": "Assign IDs which could be persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
 	"comment": "",
-	"image": "graphics/noun_increase_1920812cropped.png",
+	"image": "graphics/noun_Server_1318466cropped.png",
 	"checked": "",
 	"link": ""
 },{
-	"groups": ["Simple Card Format"],
+	"groups": ["Facets for Developing PIDs for Collections"],
 	"ptitle": "Commit to persisting existing IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "",
@@ -50,7 +37,7 @@
 	"checked": "",
 	"link": ""
 },{
-  	"groups": ["Simple Card Format"],
+  	"groups": ["Facets for Developing PIDs for Collections"],
   	"ptitle": "Humanly resolvable PIDs",
   	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
   	"comment": "",
@@ -58,7 +45,7 @@
  	"checked": "",
   	"link": ""
 },{
-	"groups": ["Simple Card Format"],
+	"groups": ["Facets for Developing PIDs for Collections"],
 	"ptitle": "Machine readable PIDs",
 	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
 	"comment": "",
@@ -66,33 +53,43 @@
 	"checked": "",
 	"link": ""
 },{
-	"groups": ["Simple Card Format"],
+	"groups": ["Facets for Developing PIDs for Collections"],
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
 	"comment": "",
 	"image": "graphics/noun_Globe_2271461_cropped.png",
 	"checked": "",
 	"link": ""  
+
+}],
+  "list": [{
+	"groups": ["Help using this site"],
+	"ptitle": "Read this first",
+	"stitle": "How to use this resource",
+	"comment": "",
+	"image": "graphics/noun_Book_1563122cropped.png",
+	"checked": "",
+	"link": ""
 },{
-	"groups": ["Simple Card Format"],
+	"groups": ["Help using this site"],
 	"ptitle": "Definitions - Terms used in this resource",
-	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
+	"stitle": "",
 	"comment": "",
 	"image": "",
 	"checked": "",
 	"link": ""  
 },{
-	"groups": ["Simple Card Format"],
+	"groups": ["Help using this site"],
 	"ptitle": "Facets/Use case mapping",
-	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
+	"stitle": "",
 	"comment": "",
 	"image": "",
 	"checked": "",
 	"link": ""  
 },{
-	"groups": ["Simple Card Format"],
+	"groups": ["Help using this site"],
 	"ptitle": "Which persistent identfiers does what?",
-	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
+	"stitle": "",
 	"comment": "",
 	"image": "",
 	"checked": "",
