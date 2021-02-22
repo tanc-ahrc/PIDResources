@@ -22,7 +22,7 @@
 	"ptitle": "Read this first",
 	"stitle": "How to use this resource",
 	"comment": "",
-	"image": "graphics/readme.png",
+	"image": "graphics/noun_Book_1563122cropped.png",
 	"checked": "",
 	"link": ""
 },{
@@ -30,7 +30,7 @@
 	"ptitle": "Augment with existing IDs",
 	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
 	"comment": "",
-	"image": "graphics/augment.png",
+	"image": "graphics/noun_increase_1920812cropped.png",
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
 },{
@@ -38,7 +38,7 @@
 	"ptitle": "Assign IDs which could be persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
 	"comment": "",
-	"image": "graphics/potentially persistent.png",
+	"image": "graphics/noun_increase_1920812cropped.png",
 	"checked": "",
 	"link": ""
 },{
@@ -46,7 +46,7 @@
 	"ptitle": "Commit to persisting existing IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "",
-	"image": "graphics/commitpersistence.png",
+	"image": "graphics/noun_archive_1807437cropped.png",
 	"checked": "",
 	"link": ""
 },{
@@ -54,7 +54,7 @@
   	"ptitle": "Humanly resolvable PIDs",
   	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
   	"comment": "",
-  	"image": "graphics/humanlyresolvable.png",
+  	"image": "graphics/noun_Woman_2199082cropped.png",
  	"checked": "",
   	"link": ""
 },{
@@ -62,7 +62,7 @@
 	"ptitle": "Machine readable PIDs",
 	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
 	"comment": "",
-	"image": "graphics/machinereadable.png",
+	"image": "graphics/noun_Robot_3704459cropped.png",
 	"checked": "",
 	"link": ""
 },{
@@ -70,7 +70,7 @@
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
 	"comment": "",
-	"image": "graphics/globallyresolvable.png",
+	"image": "graphics/noun_Globe_2271461_cropped.png",
 	"checked": "",
 	"link": ""  
 },{
