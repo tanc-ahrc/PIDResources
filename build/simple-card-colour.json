@@ -30,7 +30,7 @@
 	"link": ""
 },{
 	"groups": ["Facets for Developing PIDs for Collections"],
-	"ptitle": "Commit to persisting existing IDs",
+	"ptitle": "Commit to persisting IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "",
 	"image": "graphics/the-persistence-of-memory.png",
