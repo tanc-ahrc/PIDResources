@@ -1,0 +1,97 @@
+{
+  "defaultcard": "simple",
+  "displaychecked": false,
+  "tableofcontents": false,
+  "groups": {
+    "Facets for Developing PIDs for Collections" : {
+      "comment": "",
+      "card": "simple",
+      "maxcols": 4},
+    "Help using this site" : {
+      "comment": "Additional resources to help when using this site.",
+      "card": "simple",
+      "maxcols": 4}
+    	},
+  "list": [{
+	"groups": ["Facets for Developing PIDs for Collections"],
+	"ptitle": "Augment with existing IDs",
+	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
+	"comment": "",
+	"image": "graphics/plus.png",
+	"checked": "",
+	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
+},{
+	"groups": ["Facets for Developing PIDs for Collections"],
+	"ptitle": "Assign IDs which could be persistent",
+	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
+	"comment": "",
+	"image": "graphics/server.png",
+	"checked": "",
+	"link": ""
+},{
+	"groups": ["Facets for Developing PIDs for Collections"],
+	"ptitle": "Commit to persisting existing IDs",
+	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
+	"comment": "",
+	"image": "graphics/the-persistence-of-memory.png",
+	"checked": "",
+	"link": ""
+},{
+  	"groups": ["Facets for Developing PIDs for Collections"],
+  	"ptitle": "Humanly resolvable PIDs",
+  	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
+  	"comment": "",
+  	"image": "graphics/protest.png",
+ 	"checked": "",
+  	"link": ""
+},{
+	"groups": ["Facets for Developing PIDs for Collections"],
+	"ptitle": "Machine readable PIDs",
+	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
+	"comment": "",
+	"image": "graphics/robot.png",
+	"checked": "",
+	"link": ""
+},{
+	"groups": ["Facets for Developing PIDs for Collections"],
+	"ptitle": "Globally resolvable PIDs",
+	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
+	"comment": "",
+	"image": "graphics/worldwide.png",
+	"checked": "",
+	"link": ""  
+
+},{
+	"groups": ["Help using this site"],
+	"ptitle": "Read this first",
+	"stitle": "How to use this resource",
+	"comment": "",
+	"image": "graphics/more-information.png",
+	"checked": "",
+	"link": "https://francesmadden.github.io/PIDResources/Read%20Me.html"
+},{
+	"groups": ["Help using this site"],
+	"ptitle": "Definitions - Terms used in this resource",
+	"stitle": "",
+	"comment": "",
+	"image": "graphics/book.png",
+	"checked": "",
+	"link": ""  
+},{
+	"groups": ["Help using this site"],
+	"ptitle": "Facets/Use case mapping",
+	"stitle": "",
+	"comment": "",
+	"image": "",
+	"checked": "",
+	"link": ""  
+},{
+	"groups": ["Help using this site"],
+	"ptitle": "Which persistent identfiers does what?",
+	"stitle": "",
+	"comment": "",
+	"image": "",
+	"checked": "",
+	"link": ""  
+}]
+}
