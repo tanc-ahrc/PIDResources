@@ -49,7 +49,7 @@
 	"ptitle": "Machine readable PIDs",
 	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
 	"comment": "PIDs and metadata are made available in a machine readable format and via an API or SPARQL or OAI-PMH endpoint. Minimum metadata is required. Metadata has an open license to enable reuse.",	
-	"image": "graphics/noun_Woman_2199082cropped.png",
+	"image": "graphics/noun_Robot_3704459cropped.png",
 	"checked": "",
 	"link": ""
 },{
