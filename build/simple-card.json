@@ -6,7 +6,7 @@
     "Facets for Developing PIDs for Collections" : {
       "comment": "",
       "card": "simple",
-      "maxcols": 4},
+      "maxcols": 3},
     "Help using this site" : {
       "comment": "Additional resources to help when using this site.",
       "card": "simple",
@@ -16,48 +16,41 @@
 	"groups": ["Facets for Developing PIDs for Collections"],
 	"ptitle": "Augment with existing IDs",
 	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
-	"comment": "",
-	"image": "graphics/noun_increase_1920812cropped.png",
+	"comment": "PIDs such as Wikidata IDs, ISNIs, Getty URIs, DOIs, Gazetteer URIs and IDs from other collections can be added to collection management systems. These can be included for related collection items, an identifier for a collection item itself where it is represented in another identifier scheme and authority files.",	"image": "graphics/noun_increase_1920812cropped.png",
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
 },{
 	"groups": ["Facets for Developing PIDs for Collections"],
 	"ptitle": "Assign IDs which could be persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
-	"comment": "",
-	"image": "graphics/noun_Server_1318466cropped.png",
+	"comment": "Identifiers have a potentially machine readable format which could be expressed in a globally unique way via a DOI prefix, URI namespace or other.",	"image": "graphics/noun_Server_1318466cropped.png",
 	"checked": "",
 	"link": ""
 },{
 	"groups": ["Facets for Developing PIDs for Collections"],
-	"ptitle": "Commit to persisting existing IDs",
+	"ptitle": "Commit to persisting IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
-	"comment": "",
-	"image": "graphics/noun_archive_1807437cropped.png",
+	"comment": "A PID can be presented as a link which resolves to a publicly accessible web page containing metadata about the item or concept. Minimum metadata is required. Metadata has an open license to enable reuse.",	"image": "graphics/noun_archive_1807437cropped.png",
 	"checked": "",
 	"link": ""
 },{
   	"groups": ["Facets for Developing PIDs for Collections"],
   	"ptitle": "Humanly resolvable PIDs",
   	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
-  	"comment": "",
-  	"image": "graphics/noun_Woman_2199082cropped.png",
+  	"comment": "A PID can be presented as a link which resolves to a publicly accessible web page containing metadata about the item or concept. Minimum metadata is required. Metadata has an open license to enable reuse.",  	"image": "graphics/noun_Woman_2199082cropped.png",
  	"checked": "",
   	"link": ""
 },{
 	"groups": ["Facets for Developing PIDs for Collections"],
 	"ptitle": "Machine readable PIDs",
 	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
-	"comment": "",
-	"image": "graphics/noun_Robot_3704459cropped.png",
-	"checked": "",
+	"comment": "PIDs and metadata are made available in a machine readable format and via an API or SPARQL or OAI-PMH endpoint. Minimum metadata is required. Metadata has an open license to enable reuse.",	"checked": "",
 	"link": ""
 },{
 	"groups": ["Facets for Developing PIDs for Collections"],
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
-	"comment": "",
-	"image": "graphics/noun_Globe_2271461_cropped.png",
+	"comment": "The identifiers are created under the auspices of an external identifier scheme such as ARKs, DOIs etc. The identifiers are resolvable via this scheme, rather than an institution specific domain (web address). This introduces contractual requirements for persistence and maintenance of access to resources.",	"image": "graphics/noun_Globe_2271461_cropped.png",
 	"checked": "",
 	"link": ""  
 
