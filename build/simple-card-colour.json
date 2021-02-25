@@ -3,7 +3,7 @@
   "displaychecked": false,
   "tableofcontents": false,
   "groups": {
-    "Facets for Developing PIDs for Collections" : {
+    "Aspects for Developing PIDs for Collections" : {
       "comment": "",
       "card": "simple",
       "maxcols": 3},
@@ -13,7 +13,7 @@
       "maxcols": 4}
     	},
   "list": [{
-	"groups": ["Facets for Developing PIDs for Collections"],
+	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Augment with existing IDs",
 	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
 	"comment": "",
@@ -21,7 +21,7 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
 },{
-	"groups": ["Facets for Developing PIDs for Collections"],
+	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Assign IDs which could be persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
 	"comment": "",
@@ -29,7 +29,7 @@
 	"checked": "",
 	"link": ""
 },{
-	"groups": ["Facets for Developing PIDs for Collections"],
+	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Commit to persisting IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "",
@@ -37,7 +37,7 @@
 	"checked": "",
 	"link": ""
 },{
-  	"groups": ["Facets for Developing PIDs for Collections"],
+  	"groups": ["Aspects for Developing PIDs for Collections"],
   	"ptitle": "Humanly resolvable PIDs",
   	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
   	"comment": "",
@@ -45,7 +45,7 @@
  	"checked": "",
   	"link": ""
 },{
-	"groups": ["Facets for Developing PIDs for Collections"],
+	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Machine readable PIDs",
 	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
 	"comment": "",
@@ -53,7 +53,7 @@
 	"checked": "",
 	"link": ""
 },{
-	"groups": ["Facets for Developing PIDs for Collections"],
+	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
 	"comment": "",
