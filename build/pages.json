@@ -25,9 +25,9 @@
 "Augment - Examples":{
 	"title": "<b>Examples of augementing with IDs</b>",
 	"parent": "Augment",
-	"content":"<p>The Library of Congress provides links to other identifiers in its [names identifier file|http://id.loc.gov/authorities/names/n79041870]<\/p><figure class=\"figure\"><img src=\"graphics\/virginiawoolfeg.png\class=\"figure=img img-fluid rounded\" alt=\"Screenshot example from a Library of Congress name authority file.\"><figcaption class=\"figure-caption\">[Screenshot example|http://id.loc.gov/authorities/names/n79041870] from a Library of Congress name authority file.</figcaption></figure></br>", 
+	"content":"<p>The Library of Congress provides links to other identifiers in its [names identifier file|http://id.loc.gov/authorities/names/n79041870]<\/p><figure class=\"figure\"><img src=\"graphics\/virginiawoolfeg.png\" class=\"figure=img img-fluid rounded\" alt=\"Screenshot example from a Library of Congress name authority file.\"><figcaption class=\"figure-caption\">[Screenshot example|http://id.loc.gov/authorities/names/n79041870] from a Library of Congress name authority file.</figcaption></figure></br>", 
 	"content right": "<p>[National Galleries Scotland|https://www.nationalgalleries.org/art-and-artists/artists/paul-gauguin] and [Moma|https://www.moma.org/artists/5047] in New York integrate Getty ULAN records and Wikipedia data into their artists’ web pages.</p><figure class=\"figure\"><img src=\"graphics\/gauguin_NSGeg.png\" class=\"figure=img img-fluid rounded\" alt=\"Screenshot example from the National Gallery of Scotland's artist pages.\"><figcaption class=\"figure-caption\">Screenshot [example|https://www.nationalgalleries.org/art-and-artists/artists/paul-gauguin] from the National Gallery of Scotland's artist pages.<\/figcaption><\/figure></br>"
-
+},
 "Supporting Materials": {
 	"title": "<b>Supporting Materials</b>",
 	"content": "<p>This page contains links to supporting materials and guidance to help in using this resource.</p>",
