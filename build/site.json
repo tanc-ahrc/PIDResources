@@ -4,7 +4,7 @@
 		"metaAuthor": "Frances Madden| frances.madden@bl.uk |British Library | London UK |www.bl.uk",
 		"metaTitle": "Heritage PID Resources",
 		"metaFavIcon": "https://www.nationalcollection.org.uk/favicon.ico",
-		"logo_link": "https://tanc-ahrc.github.io/HeritagePIDs",
+		"logo_link": "./",
 		"licence": "<a href='http://rightsstatements.org/vocab/InC-EDU/1.0/'><img height='16' alt='In Copyright - Educational Use Permitted' title='In Copyright - Educational Use Permitted' src='graphics/InC-EDU.dark-white-interior-blue-type.png'/></a><a rel='license' href='https://creativecommons.org/licenses/by-nc/4.0/'><img alt='Creative Commons Licence' style='border-width:0' src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' /></a>",
 		"logo_path": "graphics/heritagepidslogo.png",
 		"footer": "<a href=\"https://www.nationalcollection.org.uk//\"><img alt=\"AHRC TANC\" style=\"border-width:0;height:31px;\" src=\"graphics/TANC_03.png\"></a><p>This resource was created as part of the Persistent Identifiers as IRO Infrastructure project, a foundation project in the Towards a National Collection programme.<\/p>",
