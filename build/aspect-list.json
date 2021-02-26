@@ -16,34 +16,34 @@
 	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
 	"image": "graphics/server-1.png",
 	"checked": "",
-	"link": ""
+	"link": "https://francesmadden.github.io/PIDResources/Potentially%20persistent.html"
 },{
 	"ptitle": "Commit to persisting IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
 	"image": "graphics/the-persistence-of-memory.png",
 	"checked": "",
-	"link": ""
+	"link": "https://francesmadden.github.io/PIDResources/Commit%20to%20persisting.html"
 },{
   	"ptitle": "Humanly resolvable PIDs",
   	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
 	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
   	"image": "graphics/protest.png",
  	"checked": "",
-  	"link": ""
+  	"link": "https://francesmadden.github.io/PIDResources/Human%20readable%20PIDs.html"
 },{
 	"ptitle": "Machine readable PIDs",
 	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
 	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
 	"image": "graphics/robot-1.png",
 	"checked": "",
-	"link": ""
+	"link": "https://francesmadden.github.io/PIDResources/Machine%20readable%20PIDs.html"
 },{
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
 	"comment": "<span>Icon: turkkub on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
 	"image": "graphics/worldwide.png",
 	"checked": "",
-	"link": ""  
+	"link": "https://francesmadden.github.io/PIDResources/Globally%20resolvable%20PIDs.html"  
 }]
 }
