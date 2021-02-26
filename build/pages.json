@@ -8,7 +8,7 @@
 "Aspects": {
 	"class": "list",
 	"file": "aspect-list.json",
-	"title": "Aspects for Developing Identifiers",
+	"title": "<b>Aspects for Developing Identifiers</b>",
 	"content": "<p>This page contains links to the aspects for developing persistent identifiers for heritage collections. For more information about this resource, see [Read Me|https://francesmadden.github.io/PIDResources/Read%20Me.html].</p>[##]"
 	},
 "Augment": {
