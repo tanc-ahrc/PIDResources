@@ -48,6 +48,8 @@
   	"content right": "<h4>Examples<\/h4>"	
             },	
 "Supporting Materials": {
+	"class": "list", 
+	"file": "supporting-list.json",
 	"title": "<b>Supporting Materials</b>",
 	"content": "<p>This page contains links to supporting materials and guidance to help in using this resource.</p>",
 	"content right": ""
