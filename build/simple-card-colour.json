@@ -16,7 +16,7 @@
 	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Augment with existing IDs",
 	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
-	"comment": "<span>Icon: Vectors Market on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
+	"comment": "",
 	"image": "graphics/plus.png",
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
@@ -24,7 +24,7 @@
 	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Assign IDs which could be persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
-	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
+	"comment": "",
 	"image": "graphics/server-1.png",
 	"checked": "",
 	"link": ""
@@ -32,7 +32,7 @@
 	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Commit to persisting IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
-	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
+	"comment": "",
 	"image": "graphics/the-persistence-of-memory.png",
 	"checked": "",
 	"link": ""
@@ -40,7 +40,7 @@
   	"groups": ["Aspects for Developing PIDs for Collections"],
   	"ptitle": "Humanly resolvable PIDs",
   	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
-	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
+	"comment": "",
   	"image": "graphics/protest.png",
  	"checked": "",
   	"link": ""
@@ -48,7 +48,7 @@
 	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Machine readable PIDs",
 	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
-	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
+	"comment": "",
 	"image": "graphics/robot-1.png",
 	"checked": "",
 	"link": ""
@@ -56,7 +56,7 @@
 	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
-	"comment": "<span>Icon: turkkub on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
+	"comment": "",
 	"image": "graphics/worldwide.png",
 	"checked": "",
 	"link": ""  
@@ -65,7 +65,7 @@
 	"groups": ["Help using this site"],
 	"ptitle": "Read this first",
 	"stitle": "How to use this resource",
-	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
+	"comment": "",
 	"image": "graphics/more-information.png",
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Read%20Me.html"
@@ -73,7 +73,7 @@
 	"groups": ["Help using this site"],
 	"ptitle": "Definitions - Terms used in this resource",
 	"stitle": "",
-	"comment": "<span>Icon: Payungkead on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
+	"comment": "",
 	"image": "graphics/book.png",
 	"checked": "",
 	"link": ""  
