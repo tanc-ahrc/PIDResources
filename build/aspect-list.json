@@ -6,8 +6,9 @@
     "Aspects" : {
       "comment": "",
       "card": "list",
-      "maxcols": 1},
-  "list": [{
+      "maxcols": 1}
+ },
+ "list": [{
 	"groups": ["Aspects"],
 	"ptitle": "Augment with existing IDs",
 	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
