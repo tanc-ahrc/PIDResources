@@ -1,15 +1,9 @@
 {
 "home": {
 	"class": "list",
-	"file": "simple-card.json",
-	"title": "<b>UNDER CONSTRUCTION - Developing Identifiers for Heritage Collections</b>",
-	"content": "<p>This resource describes the different facets of developing persistent identifiers (PIDs) in the context of Heritage Collections. It is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services.<\/p><div class=\"alert alert-info\" role=\"alert\">\r\n\t<h4 class=\"alert-heading\">Before you begin...<\/h4>\r\n\t<p>Please consult the [Read Me|https://francesmadden.github.io/PIDResources/Read%20Me.html] section before using this resource.<\/div>\r\n[##][@@Icon credits: Archive created by Omar Safaa from Noun Project, Book created by Rockicon from Noun Project, Globe created by Richard from Noun Project, Increase created by Alice Design from Noun Project, Robot created by Vectorstall from Noun Project, Server created by Noah from Noun Project and Woman created by Adrien Coquet from Noun Project]<p>This resource will be revised in 2021 and maintained until the conclusion of the Towards a National Collection programme in 2025. Comments and discussions are welcome, as are additional examples. Please raise an [issue via Github|https://github.com/FrancesMadden/PIDResources/issues] if you want to comment.<\/p>\r\n\r\n"	
-	},
-"Developing Identifiers": {
-	"class": "list",
 	"file": "simple-card-colour.json",
-	"title": "<b>Developing Identifiers for Heritage Collections</b>",
-	"content": "<p>This resource describes the different facets of developing persistent identifiers (PIDs) in the context of Heritage Collections. It is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services.<\/p><div class=\"alert alert-info\" role=\"alert\">\r\n\t<h4 class=\"alert-heading\">Before you begin...<\/h4>\r\n\t<p>Please consult the [Read Me|https://francesmadden.github.io/PIDResources/Read%20Me.html] section before using this resource.<\/div>\r\n[##]<p>This resource will be revised in 2021 and maintained until the conclusion of the Towards a National Collection programme in 2025. Comments and discussions are welcome, as are additional examples. Please raise an [issue via Github|https://github.com/FrancesMadden/PIDResources/issues] if you want to comment.<\/p>\r\n\r\n"	
+	"title": "<b>UNDER CONSTRUCTION - Developing Identifiers for Heritage Collections</b>",
+	"content": "<p>This resource describes the different facets of developing persistent identifiers (PIDs) in the context of Heritage Collections.<\/p><div class=\"alert alert-info\" role=\"alert\">\r\n\t<h4 class=\"alert-heading\">Before you begin...<\/h4>\r\n\t<p>This resource is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services. Have a look at the [Read Me|https://francesmadden.github.io/PIDResources/Read%20Me.html] section before getting started.<\/div>\r\n[##]<p>This resource will be revised in 2021 and maintained until the conclusion of the [Towards a National Collection|https://www.nationalcollection.org.uk/] programme in 2025.<\/p>\r\n</div>\r\n<span><b>Icons</b>: Server, Protest, Robot, More information on [Freepik|https://www.freepik.com]", Plus by Vectors Market, Book by Payungkead and Globe by turkkub on [flaticon|https://www.flaticon.com/].<\/span>"
 	},
 "Aspects": {
 	"class": "list",
