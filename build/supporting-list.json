@@ -3,12 +3,13 @@
   "displaychecked": false,
   "tableofcontents": false,
   "groups": {
-     "Help using this site" : {
-      "comment": "Additional resources to help when using this site.",
+     "Materials" : {
+      "comment": "",
       "card": "list",
-      "maxcols": ""}
+      "maxcols": 1}
     	},  
 "list": [{
+	"groups": ["Materials"],
 	"ptitle": "Read this first",
 	"stitle": "How to use this resource",
 	"comment": "",
@@ -16,6 +17,7 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Read%20Me.html"
 },{
+	"groups": ["Materials"],
 	"ptitle": "Glossary",
 	"stitle": "",
 	"comment": "",
@@ -23,6 +25,7 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Glossary.html"  
 },{
+	"groups": ["Materials"],
 	"ptitle": "Use case mapping",
 	"stitle": "",
 	"comment": "",
@@ -30,6 +33,7 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Use%20case%20mapping.html"  
 },{
+	"groups": ["Materials"],
 	"ptitle": "PID Functionalities",
 	"stitle": "",
 	"comment": "",
