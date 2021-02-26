@@ -9,7 +9,6 @@
       "maxcols": ""}
     	},  
 "list": [{
-	"groups": ["Help using this site"],
 	"ptitle": "Read this first",
 	"stitle": "How to use this resource",
 	"comment": "",
@@ -17,7 +16,6 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Read%20Me.html"
 },{
-	"groups": ["Help using this site"],
 	"ptitle": "Glossary",
 	"stitle": "",
 	"comment": "",
@@ -25,7 +23,6 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Glossary.html"  
 },{
-	"groups": ["Help using this site"],
 	"ptitle": "Use case mapping",
 	"stitle": "",
 	"comment": "",
@@ -33,7 +30,6 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Use%20case%20mapping.html"  
 },{
-	"groups": ["Help using this site"],
 	"ptitle": "PID Functionalities",
 	"stitle": "",
 	"comment": "",
