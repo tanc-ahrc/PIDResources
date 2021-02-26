@@ -22,12 +22,12 @@
 	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
 },{
 	"groups": ["Aspects for Developing PIDs for Collections"],
-	"ptitle": "Assign IDs which could be persistent",
+	"ptitle": "IDs which could be persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
 	"comment": "",
 	"image": "graphics/server-1.png",
 	"checked": "",
-	"link": ""
+	"link": "https://francesmadden.github.io/PIDResources/Potentially%20persistent.html"
 },{
 	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Commit to persisting IDs",
@@ -35,15 +35,15 @@
 	"comment": "",
 	"image": "graphics/the-persistence-of-memory.png",
 	"checked": "",
-	"link": ""
+	"link": "https://francesmadden.github.io/PIDResources/Commit%20to%20persisting.html"
 },{
   	"groups": ["Aspects for Developing PIDs for Collections"],
-  	"ptitle": "Humanly resolvable PIDs",
+  	"ptitle": "Human readable PIDs",
   	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
 	"comment": "",
   	"image": "graphics/protest.png",
  	"checked": "",
-  	"link": ""
+  	"link": "https://francesmadden.github.io/PIDResources/Human%20readable%20PIDs.html"
 },{
 	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Machine readable PIDs",
@@ -51,14 +51,14 @@
 	"comment": "",
 	"image": "graphics/robot-1.png",
 	"checked": "",
-	"link": ""
+	"link": "https://francesmadden.github.io/PIDResources/Machine%20readable%20PIDs.html"
 },{
 	"groups": ["Aspects for Developing PIDs for Collections"],
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
 	"comment": "",
 	"image": "graphics/worldwide.png",
-	"checked": "",
+	"checked": "https://francesmadden.github.io/PIDResources/Globally%20resolvable%20PIDs.html",
 	"link": ""  
 
 },{
@@ -71,27 +71,27 @@
 	"link": "https://francesmadden.github.io/PIDResources/Read%20Me.html"
 },{
 	"groups": ["Help using this site"],
-	"ptitle": "Definitions - Terms used in this resource",
+	"ptitle": "Glossary",
 	"stitle": "",
 	"comment": "",
 	"image": "graphics/book.png",
 	"checked": "",
-	"link": ""  
+	"link": "https://francesmadden.github.io/PIDResources/Glossary.html"  
 },{
 	"groups": ["Help using this site"],
-	"ptitle": "Facets/Use case mapping",
+	"ptitle": "Use case mapping",
 	"stitle": "",
 	"comment": "",
-	"image": "",
+	"image": "graphics/map.png",
 	"checked": "",
-	"link": ""  
+	"link": "https://francesmadden.github.io/PIDResources/Use%20case%20mapping.html"  
 },{
 	"groups": ["Help using this site"],
-	"ptitle": "Which persistent identfiers does what?",
+	"ptitle": "PID Functionalities",
 	"stitle": "",
 	"comment": "",
-	"image": "",
+	"image": "graphics/social-media.png",
 	"checked": "",
-	"link": ""  
+	"link": "https://francesmadden.github.io/PIDResources/PID%20Functionalities.html"  
 }]
 }
