@@ -4,6 +4,7 @@
   "tableofcontents": false,
   "groups":"",
   "list": [{
+	"groups": [],
 	"ptitle": "Augment with existing IDs",
 	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
 	"comment": "<span>Icon: Vectors Market on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
@@ -11,6 +12,7 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
 },{
+	"groups": [],
 	"ptitle": "IDs which could be persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
 	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
@@ -18,6 +20,7 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Potentially%20persistent.html"
 },{
+	"groups": [],
 	"ptitle": "Commit to persisting IDs",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
@@ -25,6 +28,7 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Commit%20to%20persisting.html"
 },{
+	"groups": [],
   	"ptitle": "Human readable PIDs",
   	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
 	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
@@ -32,6 +36,7 @@
  	"checked": "",
   	"link": "https://francesmadden.github.io/PIDResources/Human%20readable%20PIDs.html"
 },{
+	"groups": [],
 	"ptitle": "Machine readable PIDs",
 	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
 	"comment": "<span>Icon: <a href=\"https://www.freepik.com\">Freepik</a> on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
@@ -39,6 +44,7 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Machine%20readable%20PIDs.html"
 },{
+	"groups": [],
 	"ptitle": "Globally resolvable PIDs",
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
 	"comment": "<span>Icon: turkkub on <a href=\"https://www.flaticon.com/\">flaticon</a></span>",
