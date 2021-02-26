@@ -9,7 +9,7 @@
 	"class": "list",
 	"file": "aspect-list.json",
 	"title": "Aspects for Developing Identifiers",
-	"content": "<p>This page contains links to the aspects for developing persistent identifiers for heritage collections. For more information about this resource, see [Read Me|https://francesmadden.github.io/PIDResources/Read%20Me.html].</p><ul><li>[Augment with existing IDs|https://francesmadden.github.io/PIDResources/Augment.html]</li><li>Assign IDs which could be persistent</li><li>Commit to persisting IDs</li><li>Humanly resolvable PIDs</li><li>Machine readable PIDs</li><li>Globally resolvable PIDs</li></ul>"
+	"content": "<p>This page contains links to the aspects for developing persistent identifiers for heritage collections. For more information about this resource, see [Read Me|https://francesmadden.github.io/PIDResources/Read%20Me.html].</p>[##]"
 	},
 "Augment": {
 	"title": "<b>Augment with existing identifiers</b>",
@@ -51,7 +51,7 @@
 	"class": "list", 
 	"file": "supporting-list.json",
 	"title": "<b>Supporting Materials</b>",
-	"content": "<p>This page contains links to supporting materials and guidance to help in using this resource.</p>",
+	"content": "<p>This page contains links to supporting materials and guidance to help in using this resource.</p>[##]",
 	"content right": ""
 	},
 "Read Me": {
