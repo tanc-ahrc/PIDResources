@@ -74,7 +74,9 @@
         "content right": ""	
           },
 "PID Functionalities": {
-  	"title": "<b>PID functionalities - Which persistent identifier does what</b>",
+  	"class": "list",
+	"file": "functionalities.json",
+	"title": "<b>PID functionalities - Which persistent identifier does what</b>",
   	"parent": "Supporting Materials",
   	"content": "<div class=\"alert alert-secondary\" role=\"alert\"><h4 class=\"alert-heading\">Feedback<\/h4><p>We value your feedback on this resource. Any suggestions on the content or additional examples would be welcome.<\/p><p>To submit feedback, you can raise an [issue via Github|https://github.com/FrancesMadden/PIDResources/issues] (requires an account) or you can use the Feedback button in the bottom right of each screen.<\/p></div>",
   	"content right": ""	
