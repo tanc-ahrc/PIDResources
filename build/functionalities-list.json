@@ -1,0 +1,46 @@
+{
+  "defaultcard": "full",
+  "displaychecked": false,
+  "tableofcontents": true,
+  "groups": {
+    "PID Types (A-L)" : {
+      "comment": "",
+      "card": "full"},
+    "PID Types (M-Z)" : {
+      "comment": "",
+      "card": "simple"}
+    	},
+  "list": [{
+	"groups": ["PID Types (A-L), PID Types (M-Z)"],
+	"ptitle": "Archival Resource Key (ARK)",
+	"stitle": "ARKs are high-functioning identifiers that lead you to things and to descriptions of those things.",
+	"comment": "Aspects: [Augment with existing IDs|https://francesmadden.github.io/PIDResources/Augment.html], [Commit to persisting IDs|https://francesmadden.github.io/PIDResources/Commit%20to%20persisting.html], [Human readable IDs|https://francesmadden.github.io/PIDResources/Human%20readable%20PIDs.html], [Machine readable IDs|https://francesmadden.github.io/PIDResources/Machine%20readable%20PIDs.html], [Globally resolvable IDs|https://francesmadden.github.io/PIDResources/Globally%20resolvable%20PIDs.html].",
+	"image": "",
+	"checked": "",
+	"link": "https://wiki.lyrasis.org/display/ARKs/ARK+Identifiers+FAQ]"
+},{
+	"groups": ["PID Types A-L, PID Types (M-Z)"],
+	"ptitle": "CETAF Stable identifiers",
+	"stitle": "Consortium of European Taxonomic Facilities scheme of identifiers for specimens",
+	"comment": "Aspects: [Augment with existing IDs|https://francesmadden.github.io/PIDResources/Augment.html], [Commit to persisting IDs|https://francesmadden.github.io/PIDResources/Commit%20to%20persisting.html], [Human readable IDs|https://francesmadden.github.io/PIDResources/Human%20readable%20PIDs.html], [Machine readable IDs|https://francesmadden.github.io/PIDResources/Machine%20readable%20PIDs.html]",
+	"image": "",
+	"checked": "https://cetaf.org/cetaf-stable-identifiers",
+	"link": ""
+},{
+	"groups": ["PID Types A-L, PID Types (M-Z)"],
+	"ptitle": "Dewey",
+	"stitle": "Dewey Decimal Classification is a proprietary library classification",
+	"comment": "Aspects: [Augment with existing IDs|https://francesmadden.github.io/PIDResources/Augment.html].",
+	"image": "",
+	"checked": "",
+	"link": "http://www.gutenberg.org/files/12513/12513-h/12513-h.htm"
+},{
+  "groups": ["PID Types A-L, PID Types (M-Z)"],
+  "ptitle": "DOI",
+  "stitle": "Digital Object Identifier, a globally governed PID infrastructure. DOIs are particularly used for research-related objects",
+  "comment": "Aspects: [Augment with existing IDs|https://francesmadden.github.io/PIDResources/Augment.html], [Commit to persisting IDs|https://francesmadden.github.io/PIDResources/Commit%20to%20persisting.html], [Human readable IDs|https://francesmadden.github.io/PIDResources/Human%20readable%20PIDs.html], [Machine readable IDs|https://francesmadden.github.io/PIDResources/Machine%20readable%20PIDs.html], [Globally resolvable IDs|https://francesmadden.github.io/PIDResources/Globally%20resolvable%20PIDs.html].",
+  "image": "",
+  "checked": "",
+  "link": "https://www.doi.org/factsheets/DOIKeyFacts.html"
+}]
+}
