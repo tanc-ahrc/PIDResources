@@ -14,28 +14,28 @@
     	},
   "list": [{
 	"groups": ["Aspects for Developing PIDs for Collections"],
-	"ptitle": "Augment with existing IDs",
+	"ptitle": "Add PIDs",
 	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
 	"comment": "",
 	"image": "graphics/plus.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Augment.html"
+	"link": "https://francesmadden.github.io/PIDResources/Add%20PIDs.html"
 },{
 	"groups": ["Aspects for Developing PIDs for Collections"],
-	"ptitle": "IDs which could be persistent",
+	"ptitle": "Links - not persistent",
 	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
 	"comment": "",
 	"image": "graphics/server-1.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Potentially%20persistent.html"
+	"link": "https://francesmadden.github.io/PIDResources/Links%20-%20not%20persistent.html"
 },{
 	"groups": ["Aspects for Developing PIDs for Collections"],
-	"ptitle": "Commit to persisting IDs",
+	"ptitle": "Links - local persistence",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "",
 	"image": "graphics/the-persistence-of-memory.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Commit%20to%20persisting.html"
+	"link": "https://francesmadden.github.io/PIDResources/Links%20-%20local%20persistence.html"
 },{
   	"groups": ["Aspects for Developing PIDs for Collections"],
   	"ptitle": "Human readable PIDs",
