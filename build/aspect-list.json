@@ -26,7 +26,7 @@
 	"link": "https://francesmadden.github.io/PIDResources/Links%20-%20not%20persistent.html"
 },{
 	"groups": ["Aspects"],
-	"ptitle": "Links - local persistent",
+	"ptitle": "Links - local persistence",
 	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
 	"comment": "",
 	"image": "graphics/the-persistence-of-memory.png",
