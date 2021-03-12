@@ -58,8 +58,8 @@
 	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
 	"comment": "",
 	"image": "graphics/worldwide.png",
-	"checked": "https://francesmadden.github.io/PIDResources/Globally%20resolvable%20PIDs.html",
-	"link": ""  
+	"checked": "",
+	"link": "https://francesmadden.github.io/PIDResources/Globally%20resolvable%20PIDs.html"  
 
 },{
 	"groups": ["Help using this site"],
