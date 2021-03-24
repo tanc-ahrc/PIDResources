@@ -71,6 +71,14 @@
 	"link": "https://francesmadden.github.io/PIDResources/Read%20Me.html"
 },{
 	"groups": ["Help using this site"],
+	"ptitle": "Baseline",
+	"stitle": "",
+	"comment": "",
+	"image": "graphics/rocket.png",
+	"checked": "",
+	"link": "https://francesmadden.github.io/PIDResources/Baseline.html"  
+},{
+	"groups": ["Help using this site"],
 	"ptitle": "Glossary",
 	"stitle": "",
 	"comment": "",
