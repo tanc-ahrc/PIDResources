@@ -10,7 +10,7 @@
     "Help using this site" : {
       "comment": "Additional resources to help when using this site.",
       "card": "simple",
-      "maxcols": 4}
+      "maxcols": 3}
     	},
   "list": [{
 	"groups": ["Aspects for Developing PIDs for Collections"],
