@@ -17,6 +17,14 @@
 	"checked": "",
 	"link": "https://francesmadden.github.io/PIDResources/Read%20Me.html"
 },{
+"groups": ["Materials"],
+	"ptitle": "Baseline implementation",
+	"stitle": "",
+	"comment": "",
+	"image": "graphics/rocket.png",
+	"checked": "",
+	"link": "https://francesmadden.github.io/PIDResources/Baseline.html"  
+},{
 	"groups": ["Materials"],
 	"ptitle": "Glossary",
 	"stitle": "",
