@@ -1,6 +1,6 @@
 {
   "defaultcard": "simple",
-  "displaychecked": false,
+  "displaychecked": true,
   "tableofcontents": false,
   "groups": {
     "Aspects for Developing PIDs for Collections" : {
