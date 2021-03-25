@@ -15,7 +15,7 @@
 	"comment": "",
 	"image": "graphics/plus.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Add%20PIDs.html"
+	"link": "https://tanc-ahrc.github.io/PIDResources/Add%20PIDs.html"
 },{
 	"groups": ["Aspects"],
 	"ptitle": "Links - not persistent",
@@ -23,7 +23,7 @@
 	"comment": "",
 	"image": "graphics/server-1.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Links%20-%20not%20persistent.html"
+	"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20not%20persistent.html"
 },{
 	"groups": ["Aspects"],
 	"ptitle": "Links - local persistence",
@@ -31,7 +31,7 @@
 	"comment": "",
 	"image": "graphics/the-persistence-of-memory.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Links%20-%20local%20persistence.html"
+	"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20local%20persistence.html"
 },{
 	"groups": ["Aspects"],
   	"ptitle": "Human readable PIDs",
@@ -39,7 +39,7 @@
 	"comment": "",
   	"image": "graphics/protest.png",
  	"checked": "",
-  	"link": "https://francesmadden.github.io/PIDResources/Human%20readable%20PIDs.html"
+  	"link": "https://tanc-ahrc.github.io/PIDResources/Human%20readable%20PIDs.html"
 },{
 	"groups": ["Aspects"],
 	"ptitle": "Machine readable PIDs",
@@ -47,7 +47,7 @@
 	"comment": "",
 	"image": "graphics/robot-1.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Machine%20readable%20PIDs.html"
+	"link": "https://tanc-ahrc.github.io/PIDResources/Machine%20readable%20PIDs.html"
 },{
 	"groups": ["Aspects"],
 	"ptitle": "Globally resolvable PIDs",
@@ -55,6 +55,6 @@
 	"comment": "",
 	"image": "graphics/worldwide.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Globally%20resolvable%20PIDs.html"  
+	"link": "https://tanc-ahrc.github.io/PIDResources/Globally%20resolvable%20PIDs.html"  
 }]
 }
