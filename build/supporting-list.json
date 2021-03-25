@@ -15,7 +15,7 @@
 	"comment": "",
 	"image": "graphics/more-information.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Read%20Me.html"
+	"link": "https://tanc-ahrc.github.io/PIDResources/Read%20Me.html"
 },{
 "groups": ["Materials"],
 	"ptitle": "Baseline implementation",
@@ -23,7 +23,7 @@
 	"comment": "",
 	"image": "graphics/rocket.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Baseline.html"  
+	"link": "https://tanc-ahrc.github.io/PIDResources/Baseline.html"  
 },{
 	"groups": ["Materials"],
 	"ptitle": "Glossary",
@@ -31,7 +31,7 @@
 	"comment": "",
 	"image": "graphics/book.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Glossary.html"  
+	"link": "https://tanc-ahrc.github.io/PIDResources/Glossary.html"  
 },{
 	"groups": ["Materials"],
 	"ptitle": "Use case mapping",
@@ -39,7 +39,7 @@
 	"comment": "",
 	"image": "graphics/map.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/Use%20case%20mapping.html"  
+	"link": "https://tanc-ahrc.github.io/PIDResources/Use%20case%20mapping.html"  
 },{
 	"groups": ["Materials"],
 	"ptitle": "PID Functionalities",
@@ -47,6 +47,6 @@
 	"comment": "",
 	"image": "graphics/social-media.png",
 	"checked": "",
-	"link": "https://francesmadden.github.io/PIDResources/PID%20Functionalities.html"  
+	"link": "https://tanc-ahrc.github.io/PIDResources/PID%20Functionalities.html"  
 }]
 }
