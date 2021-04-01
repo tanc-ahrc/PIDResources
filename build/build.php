@@ -395,6 +395,7 @@ function writePage ($name, $d)
 	if ($name == "home") {$use= "index";}
 	else {$use = $name;}
 	$pd["page"] = "${use}.html";
+	$pd["use"] = $use;
 		
 	if ($d["parent"])
 		{$pd["topNavbar"] = buildTopNav ($d["bcs"][0]);
@@ -461,17 +462,13 @@ $(function() {
   $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
     event.preventDefault();
     event.stopPropagation();
-
     $(this).siblings().toggleClass("show");
-
-
     if (!$(this).next().hasClass('show')) {
       $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
     }
     $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
       $('.dropdown-submenu .show').removeClass("show");
     });
-
   });
 });
 END;
@@ -618,14 +615,13 @@ END;
     <meta name="author" content="$pageDetails[metaAuthor]" />
     <meta name="image" content="$pageDetails[metaImage]" />
     <link rel="icon" href="$pageDetails[metaFavIcon]">
-    <title>$pageDetails[metaTitle]</title>
+    <title>$pageDetails[metaTitle] - $pageDetails[use]</title>
     $cssScripts
     <style>
     $pageDetails[extra_css]
     </style>
     $GoogleAnalytics
   </head>
-
   <body onload="onLoad();">
 		<div class="$containerClass">
 			$pageDetails[topNavbar]
