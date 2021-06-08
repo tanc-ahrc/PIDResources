@@ -10,8 +10,8 @@
     <link rel="icon" href="https://www.nationalcollection.org.uk/favicon.ico">
     <title>Heritage PID Resources - Use case mapping</title>
     
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="https://unpkg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous" rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.css" integrity="sha256-BNdodQbWHpU3HT8xGhkEusT4ch4HEjvwzcbDcVuHR+E=" crossorigin="anonymous" rel="stylesheet" type="text/css">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
     <style>
     
@@ -25,18 +25,45 @@
 		gtag('config', 'G-SW2KJT18G6');
 	</script>
   </head>
+
   <body onload="onLoad();">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<div class="container-fluid">
+      <button 
+				class="navbar-toggler navbar-toggler-right" 
+				type="button" 
+				data-bs-toggle="collapse" 
+				data-bs-target="#navbarsExampleDefault" 
+				aria-controls="navbarsExampleDefault" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button>    
       <a class="navbar-brand"  href="./">
   		<img id="page-logo" class="logo" title="Logo" src="graphics/TaNC-logo-rev-wh-RGB.png" 
 				style="" alt="The National Gallery"/>
 		  </a>
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault"><ul class="navbar-nav">
-<li class="nav-item "><a class="nav-link" href="index.html">Home</a></li><!-- Dropdown Loop 1 --><li class="nav-item dropdown "><a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" title="Click to open the Aspects menu" >Aspects</a><ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow"><li><a href="Aspects.html" class="dropdown-item top-item" title="Click to open the Aspects page">Aspects</a></li><li class="dropdown-divider"></li><li><a href="Add%20PIDs.html" class="dropdown-item">Add PIDs</a></li><li><a href="Links%20-%20not%20persistent.html" class="dropdown-item">Links - not persistent</a></li><li><a href="Links%20-%20local%20persistence.html" class="dropdown-item">Links - local persistence</a></li><li><a href="Human%20readable%20PIDs.html" class="dropdown-item">Human readable PIDs</a></li><li><a href="Machine%20readable%20PIDs.html" class="dropdown-item">Machine readable PIDs</a></li><li><a href="Globally%20resolvable%20PIDs.html" class="dropdown-item">Globally resolvable PIDs</a></li></ul></li><!-- End Loop 1 --><!-- Dropdown Loop 1 --><li class="nav-item dropdown active"><a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" title="Click to open the Supporting Materials menu" >Supporting Materials<span class="sr-only">(current)</span></a><ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow"><li><a href="Supporting%20Materials.html" class="dropdown-item top-item" title="Click to open the Supporting Materials page">Supporting Materials</a></li><li class="dropdown-divider"></li><li><a href="Read%20Me.html" class="dropdown-item">Read Me</a></li><li><a href="Baseline.html" class="dropdown-item">Baseline</a></li><li><a href="Glossary.html" class="dropdown-item">Glossary</a></li><li><a href="Use%20case%20mapping.html" class="dropdown-item">Use case mapping</a></li><li><a href="PID%20functionalities.html" class="dropdown-item">PID functionalities</a></li></ul></li><!-- End Loop 1 --></ul></div>
+<li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item dropdown ">
+<!-- Dropdown Loop 1 -->
+<div class="btn-group">
+  <a href="Aspects.html"><button type="button" class="btn nav-link" title="Click to open the &ldquo;Aspects&rdquo; page">
+  Aspects</button></a>
+  <button type="button" class="btn nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"  title="Click to open the &ldquo;Aspects&rdquo; menu">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="Add%20PIDs.html" class="dropdown-item">Add PIDs</a></li><li><a href="Links%20-%20not%20persistent.html" class="dropdown-item">Links - not persistent</a></li><li><a href="Links%20-%20local%20persistence.html" class="dropdown-item">Links - local persistence</a></li><li><a href="Human%20readable%20PIDs.html" class="dropdown-item">Human readable PIDs</a></li><li><a href="Machine%20readable%20PIDs.html" class="dropdown-item">Machine readable PIDs</a></li><li><a href="Globally%20resolvable%20PIDs.html" class="dropdown-item">Globally resolvable PIDs</a></li></ul></li><!-- End Loop 1 -->
+<li class="nav-item dropdown active">
+<!-- Dropdown Loop 1 -->
+<div class="btn-group">
+  <a href="Supporting%20Materials.html"><button type="button" class="btn nav-link" title="Click to open the &ldquo;Supporting Materials&rdquo; page">
+  Supporting Materials<span class="sr-only">(current)</span></button></a>
+  <button type="button" class="btn nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"  title="Click to open the &ldquo;Supporting Materials&rdquo; menu">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="Read%20Me.html" class="dropdown-item">Read Me</a></li><li><a href="Baseline.html" class="dropdown-item">Baseline</a></li><li><a href="Glossary.html" class="dropdown-item">Glossary</a></li><li><a href="Use%20case%20mapping.html" class="dropdown-item">Use case mapping</a></li><li><a href="PID%20functionalities.html" class="dropdown-item">PID functionalities</a></li></ul></li><!-- End Loop 1 --></ul></div></li>
 			
     <span class="navbar-text">
       			<a href="https://github.com/FrancesMadden/PIDResources/">
@@ -44,15 +71,19 @@
 				style="" alt="GitHub PID Resources"/>
 		  </a>
     </span>
+</div>
     </nav>
 			<div class="row ">				
 			 <div class="col-12 col-md-12">          
 				
-				<div class="jumbotron"><h2><b>Use case mapping</b></h2></div><div class="row"><div class="col-12 col-lg-12">		<nav aria-label="breadcrumb">
+				<div class="p-2 bg-light border rounded-3 jumbotron">
+      <div class="container-fluid py-4"><h3><b>Use case mapping</b></h3></div></div><div class="row"><div class="col-12 col-lg-12">		<div class="alert alert-light" role="alert" style="padding-bottom: 0px;border-color:#dee2e6;">
+		<nav  style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
 			<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="Supporting%20Materials.html">Supporting Materials</a></li>
+				<li class="breadcrumb-item"><a href="Supporting%20Materials.html">Supporting Materials</a></li><li class="breadcrumb-item active" aria-current="page">Use case mapping</li>
 			</ol>
-		</nav></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><div class="alert alert-info" role="alert"><p><b>Key</b>: &#x25A0; <b>Fulfils </b>the use case, &#x25A3;<b> Potentially </b>fulfils the use case, &#x25A1; <b>Unlikely </b>to fulfil the use case</p></div><table class="table table-sm table-striped"><tbody><tr><th scope="col">Type of identifier</th><th scope="col">Example of identifier</th><th scope="col">I want to share a link to my stuff</th><th scope="col">I want people to cite my stuff</th><th scope="col">I want to know if people have used my stuff</th><th scope="col">I want to know what stuff I have</th><th scope="col">I want people to make things from my stuff</th><th scope="col">My stuff changes over time</th><th scope="col">I want my links to still work in 20 years+</th></tr><tr><th scope="row">Local identifiers that are not links</th><td>Catalogue number, UUID</td><td></td><td>&#x25A0;</td><td></td><td>&#x25A0;</td><td></td><td></td><td>&#x25A1;</td></tr><tr><th scope="row">Link with no commitment to persistence</th><td>A URL to page on organisation web site</td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td></td><td></td><td>&#x25A1;</td></tr><tr><th scope="row">Links, persistence managed locally</th><td>URL to a subdomain exclusively for identifiers, e.g. "<a href="http://data.myorganisation.org/id/xxx">data.myorganisation.org/id/xxx</a>"</td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td></td><td></td><td>&#x25A3;</td></tr><tr><th scope="row">Persistent identifier - human readable</th><td><a href="https://www.w3.org/TR/uri-clarification/">URI</a>, <a href="http://handle.net/index.html">Handle</a></td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td></td><td></td><td>&#x25A3;</td></tr><tr><th scope="row">Persistent identifier- human and machine readable</th><td><a href="https://www.w3.org/TR/uri-clarification/">URI</a>, <a href="https://www.doi.org/factsheets/DOIKeyFacts.html">DOI</a></td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A3;</td><td>&#x25A3;</td></tr><tr><th scope="row">Globally resolvable identifier</th><td><a href="https://www.doi.org/factsheets/DOIKeyFacts.html">DOI</a>, <a href="https://n2t.net/e/ark_ids.html">ARK</a></td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td>&#x25A3;</td><td></td><td>&#x25A3;</td></tr><tr><th scope="row">External identifier that supports versions</th><td><a href="https://www.doi.org/factsheets/DOIKeyFacts.html">DOI</a>, <a href="https://n2t.net/e/ark_ids.html">ARK</a></td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A3;</td><td>&#x25A3;</td></tr></tbody></table><div class="alert alert-secondary" role="alert"><h4 class="alert-heading">Feedback</h4><p>We value your feedback on this resource. Any suggestions on the content or additional examples would be welcome.</p><p>To submit feedback, you can raise an <a href='https://github.com/FrancesMadden/PIDResources/issues'>issue via Github</a> (requires an account) or you can use the Feedback button in the bottom right of each screen.</p></div><div class="foonote"><ul></ul></div></div><!--/span--></div><!--/row-->    <br/>
+		</nav>
+		</div></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><div class="alert alert-info" role="alert"><p><b>Key</b>: &#x25A0; <b>Fulfils </b>the use case, &#x25A3;<b> Potentially </b>fulfils the use case, &#x25A1; <b>Unlikely </b>to fulfil the use case</p></div><table class="table table-sm table-striped"><tbody><tr><th scope="col">Type of identifier</th><th scope="col">Example of identifier</th><th scope="col">I want to share a link to my stuff</th><th scope="col">I want people to cite my stuff</th><th scope="col">I want to know if people have used my stuff</th><th scope="col">I want to know what stuff I have</th><th scope="col">I want people to make things from my stuff</th><th scope="col">My stuff changes over time</th><th scope="col">I want my links to still work in 20 years+</th></tr><tr><th scope="row">Local identifiers that are not links</th><td>Catalogue number, UUID</td><td></td><td>&#x25A0;</td><td></td><td>&#x25A0;</td><td></td><td></td><td>&#x25A1;</td></tr><tr><th scope="row">Link with no commitment to persistence</th><td>A URL to page on organisation web site</td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td></td><td></td><td>&#x25A1;</td></tr><tr><th scope="row">Links, persistence managed locally</th><td>URL to a subdomain exclusively for identifiers, e.g. "<a href="http://data.myorganisation.org/id/xxx">data.myorganisation.org/id/xxx</a>"</td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td></td><td></td><td>&#x25A3;</td></tr><tr><th scope="row">Persistent identifier - human readable</th><td><a href="https://www.w3.org/TR/uri-clarification/">URI</a>, <a href="http://handle.net/index.html">Handle</a></td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td></td><td></td><td>&#x25A3;</td></tr><tr><th scope="row">Persistent identifier- human and machine readable</th><td><a href="https://www.w3.org/TR/uri-clarification/">URI</a>, <a href="https://www.doi.org/factsheets/DOIKeyFacts.html">DOI</a></td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A3;</td><td>&#x25A3;</td></tr><tr><th scope="row">Globally resolvable identifier</th><td><a href="https://www.doi.org/factsheets/DOIKeyFacts.html">DOI</a>, <a href="https://n2t.net/e/ark_ids.html">ARK</a></td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td>&#x25A3;</td><td></td><td>&#x25A3;</td></tr><tr><th scope="row">External identifier that supports versions</th><td><a href="https://www.doi.org/factsheets/DOIKeyFacts.html">DOI</a>, <a href="https://n2t.net/e/ark_ids.html">ARK</a></td><td>&#x25A0;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A0;</td><td>&#x25A3;</td><td>&#x25A3;</td><td>&#x25A3;</td></tr></tbody></table><div class="alert alert-secondary" role="alert"><h4 class="alert-heading">Feedback</h4><p>We value your feedback on this resource. Any suggestions on the content or additional examples would be welcome.</p><p>To submit feedback, you can raise an <a href='https://github.com/FrancesMadden/PIDResources/issues'>issue via Github</a> (requires an account) or you can use the Feedback button in the bottom right of each screen.</p></div><div class="foonote"><ul></ul></div></div><!--/span--></div><!--/row-->    <br/>
 			</div><!--/span-->
 			
 			
@@ -70,9 +101,9 @@
     </div><!--/.container-->
     
     
-	<script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
-	<script src="https://unpkg.com/tether@1.4.7/dist/js/tether.min.js"></script>
-	<script src="https://unpkg.com/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/tether@2.0.0/dist/js/tether.min.js" integrity="sha256-cExSEm1VrovuDNOSgLk0xLue2IXxIvbKV1gXuCqKPLE=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha256-d+FygkWgwt59CFkWPuCB4RE6p1/WiUYCy16w1+c5vKk=" crossorigin="anonymous"></script>
     <script>
 			
 			function onLoad() {
@@ -83,25 +114,20 @@
   $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
     event.preventDefault();
     event.stopPropagation();
+
     $(this).siblings().toggleClass("show");
+
+
     if (!$(this).next().hasClass('show')) {
       $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
     }
     $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
       $('.dropdown-submenu .show').removeClass("show");
     });
+
   });
 });
 				}
     </script>
-  <script>
-  window.onUsersnapCXLoad = function(api) {
-    api.init();
-  }
-  var script = document.createElement('script');
-  script.defer = 1;
-  script.src = 'https://widget.usersnap.com/global/load/c03437a9-a4bb-4e10-8cf0-78b02490a6b5?onload=onUsersnapCXLoad';
-  document.getElementsByTagName('head')[0].appendChild(script);
-</script>
   </body>
 </html>

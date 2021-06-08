@@ -10,8 +10,8 @@
     <link rel="icon" href="https://www.nationalcollection.org.uk/favicon.ico">
     <title>Heritage PID Resources - index</title>
     
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="https://unpkg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous" rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.css" integrity="sha256-BNdodQbWHpU3HT8xGhkEusT4ch4HEjvwzcbDcVuHR+E=" crossorigin="anonymous" rel="stylesheet" type="text/css">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
     <style>
     
@@ -24,6 +24,7 @@
   margin-right: auto;
   padding: 10px;
 }
+
 .card-img-top {
   width: auto;
   max-width: 100%;    
@@ -33,17 +34,37 @@
   margin-right: auto;
   padding: 10px;
 }
+
 .nodec:link, .nodec:visited, .nodec:hover, .nodec:active {
   text-decoration: none;
   color: inherit;
   }
+
 .card-hov:hover {
   opacity: 0.7;
 }
+
 .offsetanchor {
   position: relative;
   top: -75px;
 }
+
+.pcontainer {
+   position: relative;
+   width: 100%;
+   padding-top: 56.25%; /* 16:9 Aspect Ratio */
+	}
+	
+.preview {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+	}
+
 
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics - Only added in if the 'GoogleAnalyticsID' i set in the site.json file-->
@@ -55,18 +76,45 @@
 		gtag('config', 'G-SW2KJT18G6');
 	</script>
   </head>
+
   <body onload="onLoad();">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<div class="container-fluid">
+      <button 
+				class="navbar-toggler navbar-toggler-right" 
+				type="button" 
+				data-bs-toggle="collapse" 
+				data-bs-target="#navbarsExampleDefault" 
+				aria-controls="navbarsExampleDefault" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button>    
       <a class="navbar-brand"  href="./">
   		<img id="page-logo" class="logo" title="Logo" src="graphics/TaNC-logo-rev-wh-RGB.png" 
 				style="" alt="The National Gallery"/>
 		  </a>
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault"><ul class="navbar-nav">
-<li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li><!-- Dropdown Loop 1 --><li class="nav-item dropdown "><a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" title="Click to open the Aspects menu" >Aspects</a><ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow"><li><a href="Aspects.html" class="dropdown-item top-item" title="Click to open the Aspects page">Aspects</a></li><li class="dropdown-divider"></li><li><a href="Add%20PIDs.html" class="dropdown-item">Add PIDs</a></li><li><a href="Links%20-%20not%20persistent.html" class="dropdown-item">Links - not persistent</a></li><li><a href="Links%20-%20local%20persistence.html" class="dropdown-item">Links - local persistence</a></li><li><a href="Human%20readable%20PIDs.html" class="dropdown-item">Human readable PIDs</a></li><li><a href="Machine%20readable%20PIDs.html" class="dropdown-item">Machine readable PIDs</a></li><li><a href="Globally%20resolvable%20PIDs.html" class="dropdown-item">Globally resolvable PIDs</a></li></ul></li><!-- End Loop 1 --><!-- Dropdown Loop 1 --><li class="nav-item dropdown "><a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" title="Click to open the Supporting Materials menu" >Supporting Materials</a><ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow"><li><a href="Supporting%20Materials.html" class="dropdown-item top-item" title="Click to open the Supporting Materials page">Supporting Materials</a></li><li class="dropdown-divider"></li><li><a href="Read%20Me.html" class="dropdown-item">Read Me</a></li><li><a href="Baseline.html" class="dropdown-item">Baseline</a></li><li><a href="Glossary.html" class="dropdown-item">Glossary</a></li><li><a href="Use%20case%20mapping.html" class="dropdown-item">Use case mapping</a></li><li><a href="PID%20functionalities.html" class="dropdown-item">PID functionalities</a></li></ul></li><!-- End Loop 1 --></ul></div>
+<li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+<li class="nav-item dropdown ">
+<!-- Dropdown Loop 1 -->
+<div class="btn-group">
+  <a href="Aspects.html"><button type="button" class="btn nav-link" title="Click to open the &ldquo;Aspects&rdquo; page">
+  Aspects</button></a>
+  <button type="button" class="btn nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"  title="Click to open the &ldquo;Aspects&rdquo; menu">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="Add%20PIDs.html" class="dropdown-item">Add PIDs</a></li><li><a href="Links%20-%20not%20persistent.html" class="dropdown-item">Links - not persistent</a></li><li><a href="Links%20-%20local%20persistence.html" class="dropdown-item">Links - local persistence</a></li><li><a href="Human%20readable%20PIDs.html" class="dropdown-item">Human readable PIDs</a></li><li><a href="Machine%20readable%20PIDs.html" class="dropdown-item">Machine readable PIDs</a></li><li><a href="Globally%20resolvable%20PIDs.html" class="dropdown-item">Globally resolvable PIDs</a></li></ul></li><!-- End Loop 1 -->
+<li class="nav-item dropdown ">
+<!-- Dropdown Loop 1 -->
+<div class="btn-group">
+  <a href="Supporting%20Materials.html"><button type="button" class="btn nav-link" title="Click to open the &ldquo;Supporting Materials&rdquo; page">
+  Supporting Materials</button></a>
+  <button type="button" class="btn nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"  title="Click to open the &ldquo;Supporting Materials&rdquo; menu">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="Read%20Me.html" class="dropdown-item">Read Me</a></li><li><a href="Baseline.html" class="dropdown-item">Baseline</a></li><li><a href="Glossary.html" class="dropdown-item">Glossary</a></li><li><a href="Use%20case%20mapping.html" class="dropdown-item">Use case mapping</a></li><li><a href="PID%20functionalities.html" class="dropdown-item">PID functionalities</a></li></ul></li><!-- End Loop 1 --></ul></div></li>
 			
     <span class="navbar-text">
       			<a href="https://github.com/FrancesMadden/PIDResources/">
@@ -74,12 +122,14 @@
 				style="" alt="GitHub PID Resources"/>
 		  </a>
     </span>
+</div>
     </nav>
 			<div class="row ">				
 			 <div class="col-12 col-md-12">          
 				
-				<div class="jumbotron"><h2><b>Developing Identifiers for Heritage Collections</b></h2></div><div class="row"><div class="col-12 col-lg-12"></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><p>This resource describes the different aspects of developing persistent identifiers (PIDs) in the context of Heritage Collections. It is now available in an initial version for consultation and feedback until 7 June 2021.</p><div class="alert alert-info" role="alert"><h4 class="alert-heading">Before you begin...</h4><p>This resource is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services. Have a look at the <a href='https://tanc-ahrc.github.io/PIDResources/Read%20Me.html'>Read Me</a> section before getting started.</p></div><h3>Aspects for Developing PIDs for Collections</h3><p></p><div class="card-deck">      
-  <div class="col-4 mb-4 card-hov";>
+				<div class="p-2 bg-light border rounded-3 jumbotron">
+      <div class="container-fluid py-4"><h3><b>Developing Identifiers for Heritage Collections</b></h3></div></div><div class="row"><div class="col-12 col-lg-12"></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><p>This resource describes the different aspects of developing persistent identifiers (PIDs) in the context of Heritage Collections. It is now available in an initial version for consultation and feedback until 7 June 2021.</p><div class="alert alert-info" role="alert"><h4 class="alert-heading">Before you begin...</h4><p>This resource is aimed at senior technical stakeholders within galleries, libraries, archives and museums to assist with developing requirements and advocacy for new services. Have a look at the <a href='https://tanc-ahrc.github.io/PIDResources/Read%20Me.html'>Read Me</a> section before getting started.</p></div><h3>Aspects for Developing PIDs for Collections</h3><p></p><div class="row">      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Add PIDs">
       <a href="https://tanc-ahrc.github.io/PIDResources/Add%20PIDs.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/plus.png" alt="Add PIDs">
@@ -89,8 +139,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div>      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Links - not persistent">
       <a href="https://tanc-ahrc.github.io/PIDResources/Links%20-%20not%20persistent.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/server-1.png" alt="Links - not persistent">
@@ -100,8 +151,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div>      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Links - local persistence">
       <a href="https://tanc-ahrc.github.io/PIDResources/Links%20-%20local%20persistence.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/the-persistence-of-memory.png" alt="Links - local persistence">
@@ -111,8 +163,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div>      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Human readable PIDs">
       <a href="https://tanc-ahrc.github.io/PIDResources/Human%20readable%20PIDs.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/protest.png" alt="Human readable PIDs">
@@ -122,8 +175,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div>      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Machine readable PIDs">
       <a href="https://tanc-ahrc.github.io/PIDResources/Machine%20readable%20PIDs.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/robot-1.png" alt="Machine readable PIDs">
@@ -133,8 +187,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div>      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Globally resolvable PIDs">
       <a href="https://tanc-ahrc.github.io/PIDResources/Globally%20resolvable%20PIDs.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/worldwide.png" alt="Globally resolvable PIDs">
@@ -144,8 +199,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div></div><br/><h3>Help using this site</h3><p>Additional resources to help when using this site.</p><div class="card-deck">      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+</div><br/><h3>Help using this site</h3><p>Additional resources to help when using this site.</p><div class="row">      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Read this first">
       <a href="https://tanc-ahrc.github.io/PIDResources/Read%20Me.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/more-information.png" alt="Read this first">
@@ -155,8 +211,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div>      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Baseline">
       <a href="https://tanc-ahrc.github.io/PIDResources/Baseline.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/rocket.png" alt="Baseline">
@@ -166,8 +223,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div>      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Glossary">
       <a href="https://tanc-ahrc.github.io/PIDResources/Glossary.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/book.png" alt="Glossary">
@@ -177,8 +235,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div>      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="Use case mapping">
       <a href="https://tanc-ahrc.github.io/PIDResources/Use%20case%20mapping.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/map.png" alt="Use case mapping">
@@ -188,8 +247,9 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div>      
-  <div class="col-4 mb-4 card-hov";>
+  </div>
+      
+  <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 mb-4 card-hov";>
     <div class="card" title="PID functionalities">
       <a href="https://tanc-ahrc.github.io/PIDResources/PID%20functionalities.html" class="stretched-link nodec">
       <img class="card-img-top" src="graphics/social-media.png" alt="PID functionalities">
@@ -199,7 +259,8 @@
         <p class="card-text"></p>
       </div>
     </div>
-  </div></div><br/><p>This resource will be revised throughout 2021 and maintained until the conclusion of the <a href='https://www.nationalcollection.org.uk'>Towards a National Collection</a> programme in 2025.</p><div class="alert alert-secondary" role="alert"><h4 class="alert-heading">Feedback</h4><p>We value your feedback on this resource. Any suggestions on the content or additional examples would be welcome.</p><p>To submit feedback, you can raise an <a href='https://github.com/FrancesMadden/PIDResources/issues'>issue via Github</a> (requires an account) or you can use the Feedback button in the bottom right of each screen.</p><p>If you are interested in conducting detailed testing or can help us with creating further guidance, please get in touch using this <a href='https://forms.gle/9jJToBctT1MwkWcS8'>form</a>.</div><p>Icons: Server, Protest, Robot, Rocket, More information and Social Media on <a href='https://www.freepik.com'>Freepik</a>, Plus by Vectors Market, Book by Payungkead, Globe by turkkub and Map by Dinosoft on <a href='https://www.flaticon.com'>flaticon</a>.</p><div class="foonote"><ul></ul></div></div><!--/span--></div><!--/row-->    <br/>
+  </div>
+</div><br/><p>This resource will be revised throughout 2021 and maintained until the conclusion of the <a href='https://www.nationalcollection.org.uk'>Towards a National Collection</a> programme in 2025.</p><div class="alert alert-secondary" role="alert"><h4 class="alert-heading">Feedback</h4><p>We value your feedback on this resource. Any suggestions on the content or additional examples would be welcome.</p><p>To submit feedback, you can raise an <a href='https://github.com/FrancesMadden/PIDResources/issues'>issue via Github</a> (requires an account) or you can use the Feedback button in the bottom right of each screen.</p><p>If you are interested in conducting detailed testing or can help us with creating further guidance, please get in touch using this <a href='https://forms.gle/9jJToBctT1MwkWcS8'>form</a>.</div><p>Icons: Server, Protest, Robot, Rocket, More information and Social Media on <a href='https://www.freepik.com'>Freepik</a>, Plus by Vectors Market, Book by Payungkead, Globe by turkkub and Map by Dinosoft on <a href='https://www.flaticon.com'>flaticon</a>.</p><div class="foonote"><ul></ul></div></div><!--/span--></div><!--/row-->    <br/>
 			</div><!--/span-->
 			
 			
@@ -217,9 +278,9 @@
     </div><!--/.container-->
     
     
-	<script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
-	<script src="https://unpkg.com/tether@1.4.7/dist/js/tether.min.js"></script>
-	<script src="https://unpkg.com/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/tether@2.0.0/dist/js/tether.min.js" integrity="sha256-cExSEm1VrovuDNOSgLk0xLue2IXxIvbKV1gXuCqKPLE=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha256-d+FygkWgwt59CFkWPuCB4RE6p1/WiUYCy16w1+c5vKk=" crossorigin="anonymous"></script>
     <script>
 			
 			function onLoad() {
@@ -230,25 +291,20 @@
   $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
     event.preventDefault();
     event.stopPropagation();
+
     $(this).siblings().toggleClass("show");
+
+
     if (!$(this).next().hasClass('show')) {
       $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
     }
     $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
       $('.dropdown-submenu .show').removeClass("show");
     });
+
   });
 });
 				}
     </script>
-  <script>
-  window.onUsersnapCXLoad = function(api) {
-    api.init();
-  }
-  var script = document.createElement('script');
-  script.defer = 1;
-  script.src = 'https://widget.usersnap.com/global/load/c03437a9-a4bb-4e10-8cf0-78b02490a6b5?onload=onUsersnapCXLoad';
-  document.getElementsByTagName('head')[0].appendChild(script);
-</script>
   </body>
 </html>
