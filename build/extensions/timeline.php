@@ -1,5 +1,7 @@
 <?php
 
+// Last update 07 June 2021
+
 $extensionList["timeline"] = "extensionTimeline";
 $start = false;
 	
@@ -42,7 +44,7 @@ function extensionTimeline ($d, $pd)
 			}
 
 		$pd["extra_js_scripts"][] =
-			"https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js";
+			"https://cdn.jsdelivr.net/npm/mermaid@8.10.1/dist/mermaid.min.js\" integrity=\"sha256-aQCGsx3/OLAXwNyOUrAedielIQAjIrMFkcWdXMlIkGc=\" crossorigin=\"anonymous";
 		$pd["extra_onload"] .= "
 	
 	mermaid.ganttConfig = {
@@ -158,7 +160,7 @@ END;
     $mcontent = ob_get_contents();
 		ob_end_clean(); // Don't send output to client
 
-		$d["content"] = positionExtraContent ($d["content"], $mcontent);
+		$d = positionExtraContent ($d, $mcontent);
     }
 
   return (array("d" => $d, "pd" => $pd));

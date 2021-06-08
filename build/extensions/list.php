@@ -1,6 +1,6 @@
 <?php
 
-// Last update 19 Feb 2021
+// Last update 07 June 2021
 
 $extensionList["list"] = "extensionCards";
 $blank = array("groups" => array(), "ptitle" => "",
@@ -125,6 +125,7 @@ function extensionCards ($d, $pd)
   margin-right: auto;
   padding: 10px;
 }
+
 .card-img-top {
   width: auto;
   max-width: 100%;    
@@ -134,17 +135,37 @@ function extensionCards ($d, $pd)
   margin-right: auto;
   padding: 10px;
 }
+
 .nodec:link, .nodec:visited, .nodec:hover, .nodec:active {
   text-decoration: none;
   color: inherit;
   }
+
 .card-hov:hover {
   opacity: 0.7;
 }
+
 .offsetanchor {
   position: relative;
   top: -75px;
 }
+
+.pcontainer {
+   position: relative;
+   width: 100%;
+   padding-top: 56.25%; /* 16:9 Aspect Ratio */
+	}
+	
+.preview {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+	}
+
 ";
 
     // Check if a table of contents should be added.
@@ -154,7 +175,7 @@ function extensionCards ($d, $pd)
     else
       {$tb = "";}
       
-    $d["content"] = positionExtraContent ($d["content"], $tb.$gcontent);
+    $d = positionExtraContent ($d, $tb.$gcontent);
     }
 
   return (array("d" => $d, "pd" => $pd));
@@ -173,7 +194,8 @@ function buildFullCard ($la)
         
   ob_start();      
   echo <<<END
-<div class="card mb-3 $hclass" style="width: 100%;">
+
+<div class="card mb-3 $hclass">
   $ltop<div class="row no-gutters">
     <div class="col-md-4  my-auto" >
       <img src="$la[image]" class="card-img" alt="$la[ptitle]">
@@ -187,6 +209,72 @@ function buildFullCard ($la)
     </div>
   </div>$lbottom
 </div>
+
+END;
+    $html = ob_get_contents();
+    ob_end_clean(); // Don't send output to client
+
+    return ($html);
+    }
+
+function buildPresentationCard ($la)
+  {   
+  if ($la["link"])
+    {$ltop= "<a href=\"$la[link]\">";
+      $lbottom = "</a>";}
+  else
+    {$ltop= "";
+     $lbottom = "";}
+     
+  $extra = "";
+  
+  //https://www.youtube.com/embed/
+  
+     
+  if (isset($la["video"]))
+		{
+		if (preg_match("/^http[s]*[:][\/]+www[.]youtube[.]com[\/].+$/", $la["video"], $m))
+			{$prev = '<div class="pcontainer"><iframe class="preview" src="'.$la["video"].
+				'" title="YouTube video player" frameborder="0" allow='.
+				'"accelerometer; autoplay; clipboard-write; encrypted-media; '.
+				'gyroscope; picture-in-picture" allowfullscreen></iframe></div>';}
+		else
+			{$vtype = pathinfo($la["video"], PATHINFO_EXTENSION);	
+			 $prev = '<div class="pcontainer">
+					<video class="preview" controls>
+					<source src="'.$la["video"].'" type="video/'.$vtype.'">
+					Your browser does not support the video tag.
+					</video></div>';}
+			
+		if (isset($la["slides"])) 
+			{$extra .= "<p>The slides for this presentation can be downloaded <a href=\"$la[slides]\">here</a></p>";}
+		}
+	else if (isset($la["slides"]))
+		{$prev = '<div class="pcontainer"><iframe class="preview-iframe preview" id="preview-iframe" '.
+			'src="'.$la["slides"].'"></iframe></div>';}
+	else if (isset($la["image"]))
+		{$prev = "<img src=\"$la[image]\" class=\"card-img\" alt=\"$la[ptitle]\">";}
+	else
+		{$prev = "";}        
+         
+  ob_start();      
+  echo <<<END
+<div class="card mb-3" style="width: 100%;">
+  <div class="row no-gutters">
+    <div class="col-md-4  my-auto" >
+      $prev
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title">$la[ptitle]</h4>
+        $ltop<h5 class="card-title">$la[stitle]</h5>$lbottom
+        <p class="card-text">$la[comment]</p>        
+        $extra
+      </div>      
+    </div>
+  </div>
+</div>
+
 END;
     $html = ob_get_contents();
     ob_end_clean(); // Don't send output to client
@@ -200,7 +288,7 @@ function BS_ColClass ($max=3)
   if ($cno > 12) {$cno = 12;}
   if ($cno < 1) {$cno = 1;}
   $cno = intval(12/$cno);
-  $class = "col-".$cno;
+  $class = "col-lg-".$cno;
   return ($class);
   }
 
@@ -221,7 +309,7 @@ function buildSimpleCard ($la) {
   ob_start();      
   echo <<<END
       
-  <div class="$cc mb-4 $hclass";>
+  <div class="$cc col-md-6 col-sm-12  col-xs-12 mb-4 $hclass";>
     <div class="card" title="$la[ptitle]">
       $ltop
       <img class="card-img-top" src="$la[image]" alt="$la[ptitle]">
@@ -232,6 +320,7 @@ function buildSimpleCard ($la) {
       </div>
     </div>
   </div>
+
 END;
     $html = ob_get_contents();
     ob_end_clean(); // Don't send output to client
@@ -256,13 +345,14 @@ function buildImageCard ($la) {
   ob_start();      
   echo <<<END
     
-  <div class="$cc mb-4 $hclass">
+  <div class="$cc  col-md-6 col-sm-12  col-xs-12 mb-4 $hclass">
     <div class="card" title="$la[ptitle]">
       $ltop
       <img class="card-img-top" src="$la[image]" alt="$la[ptitle]">
       $lbottom
     </div>
   </div>
+
 END;
     $html = ob_get_contents();
     ob_end_clean(); // Don't send output to client
@@ -334,10 +424,12 @@ function startGroupHtml ($gnm, $comment, $card, $tbc)
       "row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5\">";}            
   else*/ if (in_array($card, array("list")))
     {$html = "$gtop<ul>";}              
-  else if (in_array($card, array("full")))
+  /*else if (in_array($card, array("full", "presentation")))
     {$html = "$gtop<div class=\"card-column\">";}
   else //if (in_array($card, array("simple"))) or anything else
-    {$html = "$gtop<div class=\"card-deck\">";}
+    {$html = "$gtop<div class=\"card-deck\">";}*/
+  else //if (in_array($card, array("simple"))) or anything else
+    {$html = "$gtop<div class=\"row\">";}
 
   return ($html);
   }
