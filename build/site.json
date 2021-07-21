@@ -8,16 +8,10 @@
 		"licence": "<a rel='license' href='https://creativecommons.org/licenses/by-nc/4.0/'><img alt='Creative Commons Licence' style='border-width:0' src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' /></a>",
 		"logo_path": "graphics/TaNC-logo-rev-wh-RGB.png",
 		"footer": "<p>Created as part of the <a href=\"https://tanc-ahrc.github.io/HeritagePIDs\">Heritage PIDS</a> project.<\/p><a href=\"https://www.nationalcollection.org.uk//\"><img alt=\"AHRC TANC\" style=\"border-width:0;height:31px;\" src=\"graphics/TANC_03.png\"></a>",
-		"extra_logos": {
-			"github": {
-				"link": "https://github.com/FrancesMadden/PIDResources",
-				"logo": "graphics/github logo white.png",
-				"alt": "GitHub PID Resources"
-			}
-		},
+		"extra_logos": {},
 		"extra_js_scripts": [],
 		"extra_css_scripts": [],
-		"extra_css": "",
-		"extra_js": "",
+		"extra_css": ".tableFixHead { overflow: auto; height: 400px; }.tableFixHead thead th { position: sticky; top: 0; z-index: 1;}",
+		"extra_js": "$(document).ready(function(){$('[data-bs-toggle=\"popover\"]').popover();});",
 		"GoogleAnalyticsID": "G-SW2KJT18G6"
 	}
