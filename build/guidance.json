@@ -1,0 +1,61 @@
+{
+	"defaultcard": "list",
+	"displaychecked": false,
+	"tableofcontents": false,
+	"groups": {
+		"Guidance": {
+			"comment": "",
+			"card": "list",
+			"maxcols": 1
+		}
+	},
+	"list": [{
+		"groups": ["Guidance"],
+		"ptitle": "How to guarantee persistence?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/guaranteed.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Guarantee%20persistence.html"
+	}, {
+		"groups": ["Guidance"],
+		"ptitle": "How to implement human readable PIDs?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/quotation.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Implement%20human%20readable.html"
+	}, {
+		"groups": ["Guidance"],
+		"ptitle": "How to implement machine readable PIDs?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/implementation.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Implement%20machine%20readable.html"
+	}, {
+		"groups": ["Guidance"],
+		"ptitle": "How to implement globally resolvable  PIDs?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/global-network.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Implement%20globally%20resolvable%20PIDs.html"
+	}, {
+		"groups": ["Guidance"],
+		"ptitle": "How much does it cost to implement PIDs?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/pound-sterling.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Cost%20of%20implementing%20identifiers.html"
+	 },{
+   		"groups": ["Guidance"],
+   		"ptitle": "How to have resources cited using PIDs? ",
+   		"stitle": "",
+   		"comment": "",
+   		"image": "graphics/quotation.png",
+   		"checked": "",
+   		"link": "https://tanc-ahrc.github.io/PIDResources/Citation%20guidance.html"
+	 }]
+}
