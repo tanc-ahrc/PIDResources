@@ -39,14 +39,6 @@
 	"comment": "",
 	"image": "graphics/map.png",
 	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Use%20case%20mapping.html"  
-},{
-	"groups": ["Materials"],
-	"ptitle": "PID Functionalities",
-	"stitle": "",
-	"comment": "",
-	"image": "graphics/social-media.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/PID%20functionalities.html"  
+	"link": "https://tanc-ahrc.github.io/PIDResources/Use%20case%20mapping.html"   
 }]
 }
