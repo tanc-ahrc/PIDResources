@@ -1,60 +1,61 @@
 {
-  "defaultcard": "list",
-  "displaychecked": false,
-  "tableofcontents": false,
-  "groups": {
-    "Aspects" : {
-      "comment": "",
-      "card": "list",
-      "maxcols": 1}
- },
- "list": [{
-	"groups": ["Aspects"],
-	"ptitle": "Add PIDs",
-	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
-	"comment": "",
-	"image": "graphics/plus.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Add%20PIDs.html"
-},{
-	"groups": ["Aspects"],
-	"ptitle": "Links - not persistent",
-	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
-	"comment": "",
-	"image": "graphics/server-1.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20not%20persistent.html"
-},{
-	"groups": ["Aspects"],
-	"ptitle": "Links - local persistence",
-	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
-	"comment": "",
-	"image": "graphics/the-persistence-of-memory.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20local%20persistence.html"
-},{
-	"groups": ["Aspects"],
-  	"ptitle": "Human readable PIDs",
-  	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
-	"comment": "",
-  	"image": "graphics/protest.png",
- 	"checked": "",
-  	"link": "https://tanc-ahrc.github.io/PIDResources/Human%20readable%20PIDs.html"
-},{
-	"groups": ["Aspects"],
-	"ptitle": "Machine readable PIDs",
-	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
-	"comment": "",
-	"image": "graphics/robot-1.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Machine%20readable%20PIDs.html"
-},{
-	"groups": ["Aspects"],
-	"ptitle": "Globally resolvable PIDs",
-	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
-	"comment": "",
-	"image": "graphics/worldwide.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Globally%20resolvable%20PIDs.html"  
-}]
+	"defaultcard": "list",
+	"displaychecked": false,
+	"tableofcontents": false,
+	"groups": {
+		"Aspects": {
+			"comment": "",
+			"card": "list",
+			"maxcols": 1
+		}
+	},
+	"list": [{
+		"groups": ["Aspects"],
+		"ptitle": "Adding PIDs to existing metadata",
+		"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
+		"comment": "",
+		"image": "graphics/plus.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Add%20PIDs.html"
+	}, {
+		"groups": ["Aspects"],
+		"ptitle": "Identifying collection items with links",
+		"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
+		"comment": "",
+		"image": "graphics/server-1.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20not%20persistent.html"
+	}, {
+		"groups": ["Aspects"],
+		"ptitle": "Managing persistent links locally",
+		"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
+		"comment": "",
+		"image": "graphics/the-persistence-of-memory.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20local%20persistence.html"
+	}, {
+		"groups": ["Aspects"],
+		"ptitle": "Human readable PIDs",
+		"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
+		"comment": "",
+		"image": "graphics/protest.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Human%20readable%20PIDs.html"
+	}, {
+		"groups": ["Aspects"],
+		"ptitle": "Machine readable PIDs",
+		"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
+		"comment": "",
+		"image": "graphics/robot-1.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Machine%20readable%20PIDs.html"
+	}, {
+		"groups": ["Aspects"],
+		"ptitle": "Globally resolvable PIDs",
+		"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
+		"comment": "",
+		"image": "graphics/worldwide.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Globally%20resolvable%20PIDs.html"
+	}]
 }
