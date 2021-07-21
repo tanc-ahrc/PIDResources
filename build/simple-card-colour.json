@@ -1,105 +1,164 @@
 {
-  "defaultcard": "simple",
-  "displaychecked": true,
-  "tableofcontents": false,
-  "groups": {
-    "Aspects for Developing PIDs for Collections" : {
-      "comment": "",
-      "card": "simple",
-      "maxcols": 3},
-    "Help using this site" : {
-      "comment": "Additional resources to help when using this site.",
-      "card": "simple",
-      "maxcols": 3}
-    	},
-  "list": [{
-	"groups": ["Aspects for Developing PIDs for Collections"],
-	"ptitle": "Add PIDs",
-	"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
-	"comment": "",
-	"image": "graphics/plus.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Add%20PIDs.html"
-},{
-	"groups": ["Aspects for Developing PIDs for Collections"],
-	"ptitle": "Links - not persistent",
-	"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
-	"comment": "",
-	"image": "graphics/server-1.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20not%20persistent.html"
-},{
-	"groups": ["Aspects for Developing PIDs for Collections"],
-	"ptitle": "Links - local persistence",
-	"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
-	"comment": "",
-	"image": "graphics/the-persistence-of-memory.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20local%20persistence.html"
-},{
-  	"groups": ["Aspects for Developing PIDs for Collections"],
-  	"ptitle": "Human readable PIDs",
-  	"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
-	"comment": "",
-  	"image": "graphics/protest.png",
- 	"checked": "",
-  	"link": "https://tanc-ahrc.github.io/PIDResources/Human%20readable%20PIDs.html"
-},{
-	"groups": ["Aspects for Developing PIDs for Collections"],
-	"ptitle": "Machine readable PIDs",
-	"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
-	"comment": "",
-	"image": "graphics/robot-1.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Machine%20readable%20PIDs.html"
-},{
-	"groups": ["Aspects for Developing PIDs for Collections"],
-	"ptitle": "Globally resolvable PIDs",
-	"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
-	"comment": "",
-	"image": "graphics/worldwide.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Globally%20resolvable%20PIDs.html"  
-
-},{
-	"groups": ["Help using this site"],
-	"ptitle": "Read this first",
-	"stitle": "How to use this resource",
-	"comment": "",
-	"image": "graphics/more-information.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Read%20Me.html"
-},{
-	"groups": ["Help using this site"],
-	"ptitle": "Baseline",
-	"stitle": "",
-	"comment": "",
-	"image": "graphics/rocket.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Baseline.html"  
-},{
-	"groups": ["Help using this site"],
-	"ptitle": "Glossary",
-	"stitle": "",
-	"comment": "",
-	"image": "graphics/book.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Glossary.html"  
-},{
-	"groups": ["Help using this site"],
-	"ptitle": "Use case mapping",
-	"stitle": "",
-	"comment": "",
-	"image": "graphics/map.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Use%20case%20mapping.html"  
-},{
-	"groups": ["Help using this site"],
-	"ptitle": "PID functionalities",
-	"stitle": "",
-	"comment": "",
-	"image": "graphics/social-media.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/PID%20functionalities.html"  
-}]
+	"defaultcard": "simple",
+	"displaychecked": true,
+	"tableofcontents": false,
+	"groups": {
+		"Getting started": {
+			"comment": "Introductory resources to help using the resource.",
+			"card": "simple",
+			"maxcols": 3
+		},
+		"Aspects of Developing PIDs for Collections": {
+			"comment": "",
+			"card": "simple",
+			"maxcols": 3
+		},
+		"Guidance on implementing identifiers": {
+			"comment": "",
+			"card": "simple",
+			"maxcols": 3
+		},
+		"Supporting Materials": {
+			"comment": "",
+			"card": "simple",
+			"maxcols": 3
+		}
+	},
+	"list": [{
+		"groups": ["Getting started"],
+		"ptitle": "How to use this resource",
+		"stitle": "",
+		"comment": "",
+		"image": "graphics/more-information.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Read%20Me.html"
+	}, {
+		"groups": ["Getting started"],
+		"ptitle": "Baseline implementation",
+		"stitle": "",
+		"comment": "",
+		"image": "graphics/rocket.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Baseline.html"
+	}, {
+		"groups": ["Getting started"],
+		"ptitle": "PID functionalities",
+		"stitle": "",
+		"comment": "",
+		"image": "graphics/social-media.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/PID%20functionalities.html"
+	}, {
+		"groups": ["Aspects of Developing PIDs for Collections"],
+		"ptitle": "Adding PIDs to existing metadata",
+		"stitle": "Externally-created persistent identifiers are included for items and entities within metadata",
+		"comment": "",
+		"image": "graphics/plus.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Add%20PIDs.html"
+	}, {
+		"groups": ["Aspects of Developing PIDs for Collections"],
+		"ptitle": "Identifying collection items with links",
+		"stitle": "Items and entities are assigned identifiers which could be machine readable and persistent",
+		"comment": "",
+		"image": "graphics/server-1.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20not%20persistent.html"
+	}, {
+		"groups": ["Aspects of Developing PIDs for Collections"],
+		"ptitle": "Managing persistent links locally",
+		"stitle": "Items and entities are assigned identifiers which the organisation commits to persisting",
+		"comment": "",
+		"image": "graphics/the-persistence-of-memory.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Links%20-%20local%20persistence.html"
+	}, {
+		"groups": ["Aspects of Developing PIDs for Collections"],
+		"ptitle": "Human readable PIDs",
+		"stitle": "Items and entities are assigned identifiers which are externally resolvable in a human readable format",
+		"comment": "",
+		"image": "graphics/protest.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Human%20readable%20PIDs.html"
+	}, {
+		"groups": ["Aspects of Developing PIDs for Collections"],
+		"ptitle": "Machine readable PIDs",
+		"stitle": "Items and entities are assigned identifiers which are resolvable in a machine readable format",
+		"comment": "",
+		"image": "graphics/robot-1.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Machine%20readable%20PIDs.html"
+	}, {
+		"groups": ["Aspects of Developing PIDs for Collections"],
+		"ptitle": "Globally resolvable PIDs",
+		"stitle": "Items and entities are assigned globally persistent, universally resolvable and maintained identifiers",
+		"comment": "",
+		"image": "graphics/worldwide.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Globally%20resolvable%20PIDs.html"
+	}, {
+		"groups": ["Guidance on implementing identifiers"],
+		"ptitle": "How to guarantee persistence?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/guaranteed.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Guarantee%20persistence.html"
+	}, {
+		"groups": ["Guidance on implementing identifiers"],
+		"ptitle": "How to implement human readable PIDs?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/catalogue.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Implement%20human%20readable.html"
+	}, {
+		"groups": ["Guidance on implementing identifiers"],
+		"ptitle": "How to implement machine readable PIDs?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/implementation.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Implement%20machine%20readable.html"
+	}, {
+		"groups": ["Guidance on implementing identifiers"],
+		"ptitle": "How to implement globally resolvable  PIDs?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/global-network.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Implement%20globally%20resolvable%20PIDs.html"
+	}, {
+		"groups": ["Guidance on implementing identifiers"],
+		"ptitle": "How much does it cost to implement PIDs?",
+		"stitle": "",
+		"commment": "",
+		"image": "graphics/pound-sterling.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Cost%20of%20implementing%20identifiers.html"
+	}, {
+		"groups": ["Guidance on implementing identifiers"],
+		"ptitle": "How to have resources cited using PIDs? ",
+		"stitle": "",
+		"comment": "",
+		"image": "graphics/quotation.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Citation%20guidance.html"
+	}, {
+		"groups": ["Supporting Materials"],
+		"ptitle": "Glossary",
+		"stitle": "",
+		"comment": "",
+		"image": "graphics/book.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Glossary.html"
+	}, {
+		"groups": ["Supporting Materials"],
+		"ptitle": "Use case mapping",
+		"stitle": "",
+		"comment": "",
+		"image": "graphics/map.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Use%20case%20mapping.html"
+	}]
 }
