@@ -1,0 +1,37 @@
+{
+	"defaultcard": "list",
+	"displaychecked": false,
+	"tableofcontents": false,
+	"groups": {
+		"Getting started": {
+			"comment": "",
+			"card": "list",
+			"maxcols": 1
+		}
+	},
+	"list": [{
+		"groups": ["Getting started"],
+		"ptitle": "How to use this resource",
+		"stitle": "",
+		"comment": "",
+		"image": "graphics/more-information.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Read%20Me.html"
+	}, {
+		"groups": ["Getting started"],
+		"ptitle": "Baseline implementation",
+		"stitle": "",
+		"comment": "",
+		"image": "graphics/rocket.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/Baseline.html"
+	}, {
+		"groups": ["Getting started"],
+		"ptitle": "PID functionalities",
+		"stitle": "",
+		"comment": "",
+		"image": "graphics/social-media.png",
+		"checked": "",
+		"link": "https://tanc-ahrc.github.io/PIDResources/PID%20functionalities.html"
+	}]
+}
