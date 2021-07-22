@@ -3,29 +3,13 @@
   "displaychecked": false,
   "tableofcontents": false,
   "groups": {
-     "Materials" : {
+     "Supporting materials" : {
       "comment": "",
       "card": "list",
       "maxcols": 1}
     	},  
 "list": [{
-	"groups": ["Materials"],
-	"ptitle": "Read this first",
-	"stitle": "How to use this resource",
-	"comment": "",
-	"image": "graphics/more-information.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Read%20Me.html"
-},{
-"groups": ["Materials"],
-	"ptitle": "Baseline implementation",
-	"stitle": "",
-	"comment": "",
-	"image": "graphics/rocket.png",
-	"checked": "",
-	"link": "https://tanc-ahrc.github.io/PIDResources/Baseline.html"  
-},{
-	"groups": ["Materials"],
+	"groups": ["Supporting materials"],
 	"ptitle": "Glossary",
 	"stitle": "",
 	"comment": "",
@@ -33,7 +17,7 @@
 	"checked": "",
 	"link": "https://tanc-ahrc.github.io/PIDResources/Glossary.html"  
 },{
-	"groups": ["Materials"],
+	"groups": ["Supporting materials"],
 	"ptitle": "Use case mapping",
 	"stitle": "",
 	"comment": "",
