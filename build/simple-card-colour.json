@@ -4,7 +4,7 @@
 	"tableofcontents": false,
 	"groups": {
 		"Getting started": {
-			"comment": "Introductory resources to help using the resource.",
+			"comment": "",
 			"card": "simple",
 			"maxcols": 3
 		},
